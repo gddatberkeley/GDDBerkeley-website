@@ -1,27 +1,20 @@
 ---
 title: "Staffs"
 ---
-<script type="text/javascript" src="/staff.js"></script>
-<div class="page-content">
-    <h1 class="page-title">Staff</h1>
-    <div class="tabs-picker">
-        <span id="officerLink">Officer</span>
-        <span id="mentorLink">Mentor</span>
-        <span id="facilitatorLink">Facilitator</span>
-    </div>
-    <div id="officerPage">
-        <div class="mdl-grid">
-            {{< staff_member "officer" >}}
-        </div>
-    </div>
-    <div id="facilitatorPage">
-        <div class="mdl-grid">
-            {{< staff_member "facilitators" >}}
-        </div>
-    </div>
-    <div id="mentorPage">
-        <div class="mdl-grid">
-            {{< staff_member "mentors" >}}
-        </div>
-    </div>
-</div>
+<section class="content center-text">
+    <h1 style="margin-bottom: 0px;">Staff</h1>
+    <p>Meet our team!</p>
+    <br>
+    {{< asset_image src="gdrive/club-about/club-about.jfif" width="800px">}}
+</section>
+<section class="content" style="max-width: 1400px;">
+    <h2 class="center-text">Officer</h2>
+    {{< staff_member "officer" >}}
+    <br>
+    <h2 class="center-text">Mentor</h2>
+    {{< staff_member "facilitators" >}}
+    <br>
+    <h2 class="center-text">Facilitator</h2>
+    {{< staff_member "mentors" >}}
+    <br>
+</section>
