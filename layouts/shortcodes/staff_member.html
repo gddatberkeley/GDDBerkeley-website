@@ -1,39 +1,43 @@
+{{/*
+Staff images. Appends sha512 hash to filename so browser does not use cache when file updates.
+*/}}
+<div class="staff-container">
 {{ $role := .Get 0 }}
 {{ range .Site.Data.staff }}
 {{ if in .roles $role }}
-<div class="demo-card-square mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
+    <div class="staff">
     {{/* if and .image (fileExists (printf "static/%s" .image)) */}}
-    {{ with resources.Get (printf "assets/gdrive/staff/%s" .image) }}
-    {{ with . | resources.Fingerprint "sha512" }}
-    <div class="mdl-card__title mdl-card--expand staff-member" style="background-image: url('{{ .RelPermalink }}')"></div>
+    {{ with resources.Get (printf "gdrive/staff/%s" .image) }}
+        {{ with . | resources.Fingerprint "sha512" }}
+            <img width="200px" height="200px" src="{{ .RelPermalink }}" />
         {{ end }}
     {{ else }}
-        <div class="mdl-card__title mdl-card--expand staff-member" style="background-image: url(/images/gddicon.png)"></div>
+        <img width="200px" height="200px" src="/images/gddicon" />
         {{ if .image }}
             {{ warnf "Image %s for staff %s not found" .image .name }}
         {{ end }}
-
     {{ end }}
-    <h2 class="mdl-card__title-text name" id="name">{{ .name }}</h2>
-    <h2 class="mdl-card__title-text description" id="bio">
-        {{ with .bio }}
-        "{{ . }}"
-        {{ else }}
-        "No bio yet!"
-        {{ end }}
-    </h2>
-    <h2 class="mdl-card__title-text description" id="quote">
-        {{ with .quote }}
-        "{{ . }}"
-        {{ else }}
-        "No quote yet"
-        {{ end }}
-    </h2>
-    <div class="mdl-card__actions mdl-card--border">
-        {{ .title }}
-        <button class="info-button" onclick="info(this, 'quote')" style="margin-left: 5px">Quote</button>
-        <button class="info-button" onclick="info(this, 'bio')">Bio</button>
+    <p class="name">{{ .name }}</p>
+    <p class="title">{{ .title }}</p>
+    <!-- <h2 class="description" id="bio"> -->
+    <!--     {{ with .bio }} -->
+    <!--     "{{ . }}" -->
+    <!--     {{ else }} -->
+    <!--     "No bio yet!" -->
+    <!--     {{ end }} -->
+    <!-- </h2> -->
+    <!-- <h2 class="description" id="quote"> -->
+    <!--     {{ with .quote }} -->
+    <!--     "{{ . }}" -->
+    <!--     {{ else }} -->
+    <!--     "No quote yet" -->
+    <!--     {{ end }} -->
+    <!-- </h2> -->
+    <!-- <div class=""> -->
+    <!--     <button class="info-button" onclick="info(this, 'quote')" style="margin-left: 5px">Quote</button> -->
+    <!--     <button class="info-button" onclick="info(this, 'bio')">Bio</button> -->
+    <!-- </div> -->
     </div>
+{{ end }}
+{{ end }}
 </div>
-{{ end }}
-{{ end }}
