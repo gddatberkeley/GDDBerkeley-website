@@ -47,12 +47,20 @@ img {
   justify-content: space-evenly;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 900px) {
+  .small-screen {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  /* better alternative: have max size for text column and always wrap */
   .columns-container {
-    display: flex;
-    align-items: center;
-    gap: 110px;
-    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  body {
+    font-size: 80% !important;
   }
 }
 
@@ -162,6 +170,12 @@ main {
 
 .nav-bar a:hover {
   color: var(--orange1);
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
 }
 
 /* == games == */
