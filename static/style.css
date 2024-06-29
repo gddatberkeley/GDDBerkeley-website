@@ -39,12 +39,11 @@ p > a:not(.button) {
 
 .columns-container {
   display: flex;
-  /* align-items: center; */
   gap: 110px;
   justify-content: space-evenly;
 }
 
-/* Desktop view */
+/* == Desktop view == */
 @media (min-width: 500px) {
   .columns-container {
     display: flex;
@@ -53,7 +52,7 @@ p > a:not(.button) {
     justify-content: space-evenly;
   }
 
-  /* Nav bar */
+  /* == Nav bar == */
   .nav-bar {
     display: flex;
     align-items: center;
@@ -76,14 +75,14 @@ p > a:not(.button) {
     gap: 3rem;
   }
 
-  /* Footer */
+  /* == Footer == */
   #footer-links {
     display: flex;
     gap: 40px;
     justify-content: center;
   }
 
-  /* Headers */
+  /* == Headers == */
   h1 {
     color: var(--orange1);
     font-size: 50px;
@@ -102,16 +101,16 @@ p > a:not(.button) {
     font-weight: 700;
   }
 
-  /* Homepage */
+  /* == Homepage == */
   #title-img {
     width: 500px;
     height: 500px;
   }
 }
 
-/* Mobile view */
+/* == Mobile view == */
 @media (max-width: 500px) {
-  /* Nav bar */
+  /* == Nav bar == */
   .nav-bar {
     display: flex;
     align-items: center;
@@ -136,14 +135,14 @@ p > a:not(.button) {
     gap: 2rem;
   }
 
-  /* Footer */
+  /* == Footer == */
   #footer-links {
     display: flex;
     gap: 20px;
     justify-content: center;
   }
 
-  /* Headers */
+  /* == Headers == */
   h1 {
     color: var(--orange1);
     font-size: 40px;
@@ -162,7 +161,11 @@ p > a:not(.button) {
     font-weight: 700;
   }
 
-  /* Homepage */
+  h4 {
+    font-size: 20px;
+  }
+
+  /* == Homepage == */
   #title-img {
     width: 250px;
     height: 250px;
@@ -171,6 +174,15 @@ p > a:not(.button) {
 
   #hp-calendar {
     margin-top: 0.5rem;
+  }
+
+  /* == Decal Page == */
+  #decal-email {
+    font-size: 12px;
+  }
+
+  #dp-buttons {
+    font-size: 16px;
   }
 }
 
@@ -231,18 +243,6 @@ main {
 
 
 /* == nav bar (top bar) == */
-/* .nav-bar {
-  padding: 12px 50px;
-  font-size: 27px;
-  font-weight: bold;
-  background: #DCF1FE;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-} */
-
 .nav-title {
   display: flex;
   align-items: center;
