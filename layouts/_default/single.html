@@ -18,24 +18,26 @@
 </head>
 
 <body>
-    <!-- TODO: small screen, scale image using pipeline -->
-    <!-- <nav class="nav-bar">
-        <a class="nav-title" href="/">
-            <img src="/images/icon.png" width="80" height="80">
-            <div>GDD@Berkeley</div>
-        </a>
-        <div class="nav-links">
-            <a href="/club">Club</a>
-            <a href="/decal">Decal</a>
-            <a href="/bearjams">Bear Jam</a>
-            <a href="/games">Games</a>
-            <a href="/staff">Staff</a>
-        </div>
-    </nav> -->
 
-    <div class="container" style="max-width: 100%;">
+    <nav class="navbar nav-bar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/" id="nav-logo">
+            <img src="/images/icon.png" alt="Logo" width="3rem" height="3rem" class="d-inline-block align-text-middle" id="nav-logo-img">
+            <mark>GDD@Berkeley</mark>
+            </a>
+            <div class="d-flex" id="nav-bar-links">
+                <a class="nav-link" href="/club">Club</a>
+                <a class="nav-link" href="/decal">Decal</a>
+                <a class="nav-link" href="/bearjams">Bear Jam</a>
+                <a class="nav-link" href="/games">Games</a>
+                <a class="nav-link" href="/staff">Staff</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="container" style="max-width: 100%;">
         <div class="row">
-            <nav class="nav nav-bar">
+            <nav class="nav nav-bar justify-content-end">
                 <a class="nav-link" href="/" id="nav-logo">
                     <img src="/images/icon.png" alt="Logo" width="3rem" height="3rem" class="d-inline-block align-text-middle" id="nav-logo-img">
                     <mark>GDD@Berkeley</mark>
@@ -47,7 +49,7 @@
                 <a class="nav-link" href="/staff">Staff</a>
             </nav>
         </div>
-    </div>
+    </div> -->
 
     <main>
     {{ .Content }}
@@ -90,12 +92,6 @@
                 </div>
             </div>
         </div>
-        
-        
-        
-
-        
-
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

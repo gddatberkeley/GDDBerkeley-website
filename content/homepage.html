@@ -8,8 +8,8 @@ url: /
     background: linear-gradient(180deg, rgba(255, 199, 0, 0.27) 7.2%, rgba(3, 161, 255, 0.27) 65.01%);
 }
 h1 {
-  color: #15A8FF;
-  line-height: 1.5;
+    color: #15A8FF;
+    line-height: 1.5;
 }
 h3 {
     color: #005486;
@@ -25,7 +25,7 @@ h3 {
                     <mark>D</mark>evelopment<br>
                 at Berkeley
                 </h1>
-                <h3>An inviting community for Berkeley students interested in game design and development!</h3>
+                <h3 style="margin-top: 2.5rem; margin-bottom: 2rem;">An inviting community for Berkeley students interested in game design and development!</h3>
                 <br>
                 <p><a class="button" href="TODO">Join Our Community</a></p>
             </div>
@@ -41,15 +41,19 @@ h3 {
 <section class="content">
     <div class="container">
         <div class="row">
-            <h2>Our Community</h2>
-            <p>Join <mark>Cal's Game Design and Development Club</mark> to connect with fellow gamers. Whether you're a student, alumni, or have taken the decal, you're all welcome. Apply for a role, build a game team, and get mentorship from peers. We'll also host hackathons and guest speakers. Join us - we'd love to have you!</p>
-        </div>
-        <div class="row">
             <div class="col">
-                <div style="gap: 25px; line-height: 60px;">
-                    <a class="button" href="TODO">Learn more</a>
-                    <a class="button" href="TODO">Linktree</a>
-                    <a class="button" href="TODO">Discord</a>
+                <div class="row" style="margin-bottom: 4rem;">
+                    <h2>Our Community</h2>
+                </div>
+                <div class="row">
+                    <p>Join <mark>Cal's Game Design and Development Club</mark> to connect with fellow gamers. Whether you're a student, alumni, or have taken the decal, you're all welcome. Apply for a role, build a game team, and get mentorship from peers. We'll also host hackathons and guest speakers. Join us - we'd love to have you!</p>
+                </div>
+                <div class="row">
+                    <div style="margin-top: 3rem; line-height: 60px;">
+                        <a class="button" href="TODO">Learn more</a>
+                        <a class="button" href="TODO">Linktree</a>
+                        <a class="button" href="TODO">Discord</a>
+                    </div>
                 </div>
             </div>
             <div class="col">
@@ -61,17 +65,19 @@ h3 {
 
 <section class="content">
     <div class="container">
-        <div class="row">
+        <div class="row text-end">
             <div class="col">
                 {{<asset_image src="gdrive/decal.jpg">}}
             </div>
             <div class="col">
-                <div>
+                <div class="row" style="margin-bottom: 4rem;">
                     <h2>Decal</h2>
+                </div>
+                <div class="row">
                     <p>Our <mark>Video Game Design and Development Decal</mark> covers game creation from start to finish. Throughout the semester, students will pitch a game, form teams, and complete a project with instructor guidance. No prior game development experience is necessary, but basic art, music, or programming skills are required.</p>
-                    <div style="display: flex; gap: 25px;">
-                        <a class="button" href="TODO">Learn more</a>
-                    </div>
+                </div>
+                <div class="row" style="margin-top: 3rem;">
+                    <p><a class="button" href="TODO">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -79,7 +85,7 @@ h3 {
 </section>
 
 <section class="content">
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             <h2>Featured Events</h2>
         </div>
@@ -91,7 +97,7 @@ h3 {
 </section>
 
 <section class="content">
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             <h2 class="section-title">Check out our events!</h2>
         </div>
@@ -103,7 +109,7 @@ h3 {
 </section>
 
 <section class="content">
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             <h2 class="section-title">Try out some GDD games! </h2>
         </div>
@@ -111,11 +117,7 @@ h3 {
             <div>{{<games_random>}}</div>
         </div>
         <div class="row" style="margin-top: 2rem;">
-            <br>
-            <div class="center-text">
-                <a class="button" href="/games">More Games</a>
-            </div>
-            <br>
+            <p><a class="button" href="/games">More Games</a></p>
         </div>
     </div>
 </section>
