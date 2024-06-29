@@ -16,14 +16,6 @@
         "roles": ["officer"]
     },
     {
-        "name": "Vivian Liu",
-        "title": "Senior Advisor",
-        "image": "vivian_liu.JPG",
-        "quote": "o7",
-        "bio" :"Hi! I’m Vivian and I’m a junior studying computer science and data science. I’m particularly interested in computer graphics, and video game design and development just happens to align with my interests! ",
-        "roles": ["officer"]
-    },
-    {
         "name": "Matthew Kwon",
         "title": "Industry Outreach",
         "image": "matthew_kwon.jpg",
@@ -61,14 +53,6 @@
         "image": "Alexandria_Gooray.JPG",
         "quote": "🐥", 
         "bio": "Hi there! I’m Alex and I’m a third year political science major! I’ve always been passionate about video games but joining GDD allowed me to discover a deeper passion for design and development. I love the community here, especially witnessing the creativity and excitement of other members!",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Daniela Davila",
-        "title": "Public Relations",
-        "image": "Daniela_Davila.jpg",
-        "quote": "Life is not so yahoo~", 
-        "bio": "Hiya, I’m Daniela! I’m a senior studying Cognitive Science and PR officer for GDD. Gaming has always been a big part of my life, which really led to me wanting to make them! GDD really helped me find a community of like minded people who enjoy the world of gaming and game making. Hope to see you all enjoy our community as much as I have! <3",
         "roles": ["officer"]
     },
     {
