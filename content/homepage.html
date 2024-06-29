@@ -7,22 +7,15 @@ url: /
 #title-section {
     background: linear-gradient(180deg, rgba(255, 199, 0, 0.27) 7.2%, rgba(3, 161, 255, 0.27) 65.01%);
 }
-h3 {
-    font-size: 24px;
-    color: #005486;
-}
-img {
-    margin: auto;
-}
-
 h1 {
   color: #15A8FF;
   line-height: 1.5;
-  font-size: 60px;
+}
+h3 {
+    color: #005486;
 }
 </style>
 <section id="title-section">
-
     <div class="container">
         <div class="row">
             <div class="col">
@@ -36,73 +29,95 @@ h1 {
                 <br>
                 <p><a class="button" href="TODO">Join Our Community</a></p>
             </div>
-        </div>
-        <div class="row" style="margin-top: 1rem;">
             <div class="col">
                 <img src="/images/icon.png" id="title-img">
             </div>
         </div>
     </div>
+</section>
 
-    <!-- <div class="columns-container content">
-        <div>
-            <h1>
-                <mark>G</mark>ame<br>
-                <mark>D</mark>esign<br>
-                <mark>D</mark>evelopment<br>
-            at Berkeley
-            </h1>
-            <h3>An inviting community for Berkeley students interested in game design and development!</h3>
-            <br>
-            <p>
-            <a class="button" href="TODO">Join Our Community</a>
-            </p>
-        </div>
-        <img src="/images/icon.png" width="500" height="500">
-    </div> -->
-</section>
 <br>
-<section class="columns-container content">
-    <div>
-        <h2>Our Community</h2>
-        <p>Join <mark>Cal's Game Design and Development Club</mark> to connect with fellow gamers. Whether you're a student, alumni, or have taken the decal, you're all welcome. Apply for a role, build a game team, and get mentorship from peers. We'll also host hackathons and guest speakers. Join us - we'd love to have you!</p>
-        <div style="display: flex; gap: 25px;">
-            <a class="button" href="TODO">Learn more</a>
-            <a class="button" href="TODO">Linktree</a>
-            <a class="button" href="TODO">Discord</a>
+
+<section class="content">
+    <div class="container">
+        <div class="row">
+            <h2>Our Community</h2>
+            <p>Join <mark>Cal's Game Design and Development Club</mark> to connect with fellow gamers. Whether you're a student, alumni, or have taken the decal, you're all welcome. Apply for a role, build a game team, and get mentorship from peers. We'll also host hackathons and guest speakers. Join us - we'd love to have you!</p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div style="gap: 25px; line-height: 60px;">
+                    <a class="button" href="TODO">Learn more</a>
+                    <a class="button" href="TODO">Linktree</a>
+                    <a class="button" href="TODO">Discord</a>
+                </div>
+            </div>
+            <div class="col">
+                {{<asset_image src="gdrive/homepage-staff.jpg">}}
+            </div>
         </div>
     </div>
-            {{< asset_image src="gdrive/homepage-staff.jpg" width="460px" height="420px">}}
 </section>
-<section class="columns-container content">
-        {{< asset_image src="gdrive/decal.jpg" width="460px" height="420px">}}
-    <div>
-        <h2>Decal</h2>
-        <p>Our <mark>Video Game Design and Development Decal</mark> covers game creation from start to finish. Throughout the semester, students will pitch a game, form teams, and complete a project with instructor guidance. No prior game development experience is necessary, but basic art, music, or programming skills are required.</p>
-        <div style="display: flex; gap: 25px;">
-            <a class="button" href="TODO">Learn more</a>
+
+<section class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                {{<asset_image src="gdrive/decal.jpg">}}
+            </div>
+            <div class="col">
+                <div>
+                    <h2>Decal</h2>
+                    <p>Our <mark>Video Game Design and Development Decal</mark> covers game creation from start to finish. Throughout the semester, students will pitch a game, form teams, and complete a project with instructor guidance. No prior game development experience is necessary, but basic art, music, or programming skills are required.</p>
+                    <div style="display: flex; gap: 25px;">
+                        <a class="button" href="TODO">Learn more</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
 <section class="content">
-    <h2>Featured Events</h2>
-    {{< img_multi src="gdrive/featured_event" >}}
-</section>
-<section class="content">
-    <!-- TODO: use better calender -->
-    <h2 class="section-title">Check out our events!</h2>
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=NmtmYjhuaXN1dDhrNXUwN2U2ZDU1OTFranNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
-</section>
-<section class="content">
-    <h2 class="section-title">Try out some GDD games! </h2>
-    <div>
-        {{< games_random >}}
+    <div class="container">
+        <div class="row">
+            <h2>Featured Events</h2>
+        </div>
+        <div class="row">
+            <!-- TODO: fix the img_multi -->
+            {{<img_multi src="gdrive/featured_event">}}
+        </div>
     </div>
-    <br>
-    <div class="center-text">
-        <a class="button" href="/games">More Games</a>
+</section>
+
+<section class="content">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title">Check out our events!</h2>
+        </div>
+        <div class="row" id="hp-calendar">
+            <!-- TODO: use better calender -->
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=NmtmYjhuaXN1dDhrNXUwN2U2ZDU1OTFranNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
     </div>
-    <br>
+</section>
+
+<section class="content">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title">Try out some GDD games! </h2>
+        </div>
+        <div class="row">
+            <div>{{<games_random>}}</div>
+        </div>
+        <div class="row" style="margin-top: 2rem;">
+            <br>
+            <div class="center-text">
+                <a class="button" href="/games">More Games</a>
+            </div>
+            <br>
+        </div>
+    </div>
 </section>
         <!-- <h2 class="section-title">CONNECT TO OUR DISCORD!</h2>
             <iframe src="https://discordapp.com/widget?id=433080296057864192&theme=dark" width="350" height="500"
