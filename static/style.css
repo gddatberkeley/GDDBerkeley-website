@@ -54,6 +54,16 @@ p > a:not(.button) {
   }
 
   /* Nav bar */
+  .nav-bar {
+    display: flex;
+    align-items: center;
+
+    padding: 0.25rem;
+    font-size: 16px;
+    font-weight: bold;
+    background: #DCF1FE;
+  }
+  
   #nav-logo-img {
     width: 30px;
     height: 30px;
@@ -123,11 +133,6 @@ p > a:not(.button) {
     justify-content: center;
   }
 
-  /* Lettering */
-  mark {
-    padding: 0;
-  }
-
   /* Headers */
   h1 {
     font-size: 40px;
@@ -175,6 +180,7 @@ footer {
 mark {
   color: var(--orange1);
   background: none;
+  padding: 0;
 }
 
 p > mark {
