@@ -209,22 +209,33 @@ footer h5 {
     display: flex;
     align-items: center;
 
-    padding: 0.25rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 16px;
+    padding: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+
+    font-size: 24px;
     font-weight: bold;
     background: #DCF1FE;
   }
 
+  #nav-logo {
+    margin: 0;
+    padding: 0;
+  }
+
+  #nav-logo mark {
+    font-size: 24px;
+  }
+
   #nav-logo-img {
-    width: 30px;
-    height: 30px;
-    margin-right: 0.2rem;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
   }
 
   #nav-bar-links {
-    gap: 3rem;
+    gap: 4rem;
   }
 
   /* == Footer == */
@@ -252,6 +263,39 @@ footer h5 {
     font-size: 24px;
     font-weight: 700;
   }
+
+  /* Spacing */
+  .lg-sp-bot {
+    margin-bottom: 4rem;
+  }
+
+  .md-sp-bot {
+    margin-bottom: 2.5rem;
+  }
+
+  .sm-sp-bot {
+    margin-bottom: 1.5rem;
+  }
+
+  .lg-sp-top {
+    margin-top: 4rem;
+  }
+
+  .md-sp-top {
+    margin-top: 2.5rem;
+  }
+
+  .sm-sp-top {
+    margin-top: 1.5rem;
+  }
+
+  /* .two-col-imgl {
+    margin-right: 5rem;
+  }
+
+  .two-col-imgr {
+    margin-left: 5rem;
+  } */
 
   /* == Homepage == */
   #title-img {
@@ -308,7 +352,7 @@ footer h5 {
 
   h2 {
     color: var(--blue1);
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 700;
   }
 
@@ -322,6 +366,39 @@ footer h5 {
     font-size: 20px;
   }
 
+  /* Spacing */
+  .lg-sp-bot {
+    margin-bottom: 2rem;
+  }
+
+  .md-sp-bot {
+    margin-bottom: 1.5rem;
+  }
+
+  .sm-sp-bot {
+    margin-bottom: 1rem;
+  }
+
+  .lg-sp-top {
+    margin-top: 2rem;
+  }
+
+  .md-sp-top {
+    margin-top: 1.5rem;
+  }
+
+  .sm-sp-top {
+    margin-top: 1rem;
+  }
+
+  .two-col-imgl {
+    margin-bottom: 1.5rem;
+  }
+
+  .two-col-imgr {
+    margin-top: 1.5rem;
+  }
+
   /* == Homepage == */
   #title-img {
     width: 250px;
@@ -331,6 +408,10 @@ footer h5 {
 
   #hp-calendar {
     margin-top: 0.5rem;
+  }
+
+  #hp-calendar-iframe {
+    height: 400px;
   }
 
   /* == Decal Page == */

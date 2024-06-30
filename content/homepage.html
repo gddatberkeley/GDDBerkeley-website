@@ -41,22 +41,23 @@ h3 {
 <section class="content">
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="row" style="margin-bottom: 4rem;">
+            <div class="col-sm-6">
+                <div class="row lg-sp-bot">
                     <h2>Our Community</h2>
                 </div>
-                <div class="row">
+                <div class="row lg-sp-bot">
                     <p>Join <mark>Cal's Game Design and Development Club</mark> to connect with fellow gamers. Whether you're a student, alumni, or have taken the decal, you're all welcome. Apply for a role, build a game team, and get mentorship from peers. We'll also host hackathons and guest speakers. Join us - we'd love to have you!</p>
                 </div>
                 <div class="row">
-                    <div style="margin-top: 3rem; line-height: 60px;">
+                    <div style="line-height: 60px;">
                         <a class="button" href="/club">Learn more</a>
                         <a class="button" href="https://linktr.ee/gddatberk" target="_blank">Linktree</a>
                         <a class="button" href="https://discord.gg/yaFYJxc" target="_blank">Discord</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-sm-1"></div>
+            <div class="col-sm two-col-imgr">
                 {{<asset_image src="gdrive/homepage-staff.jpg">}}
             </div>
         </div>
@@ -66,17 +67,17 @@ h3 {
 <section class="content">
     <div class="container">
         <div class="row text-end">
-            <div class="col">
+            <div class="col-sm two-col-imgl">
                 {{<asset_image src="gdrive/decal.jpg">}}
             </div>
-            <div class="col">
-                <div class="row" style="margin-bottom: 4rem;">
+            <div class="col-sm">
+                <div class="row lg-sp-bot">
                     <h2>Decal</h2>
                 </div>
-                <div class="row">
+                <div class="row lg-sp-bot">
                     <p>Our <mark>Video Game Design and Development Decal</mark> covers game creation from start to finish. Throughout the semester, students will pitch a game, form teams, and complete a project with instructor guidance. No prior game development experience is necessary, but basic art, music, or programming skills are required.</p>
                 </div>
-                <div class="row" style="margin-top: 3rem;">
+                <div class="row">
                     <p><a class="button" href="/decal">Learn more</a></p>
                 </div>
             </div>
@@ -86,7 +87,7 @@ h3 {
 
 <section class="content">
     <div class="container text-center">
-        <div class="row">
+        <div class="row md-sp-bot">
             <h2>Featured Events</h2>
         </div>
         <div class="row">
@@ -102,29 +103,35 @@ h3 {
 
 <section class="content">
     <div class="container text-center">
-        <div class="row">
-            <h2 class="section-title">Check out our events!</h2>
+        <div class="row md-sp-bot">
+            <h2>Check out our events!</h2>
         </div>
         <div class="row" id="hp-calendar">
             <!-- TODO: use better calender -->
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=NmtmYjhuaXN1dDhrNXUwN2U2ZDU1OTFranNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe id="hp-calendar-iframe" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=NmtmYjhuaXN1dDhrNXUwN2U2ZDU1OTFranNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
     </div>
 </section>
 
 <section class="content">
     <div class="container text-center">
-        <div class="row">
-            <h2 class="section-title">Try out some GDD games! </h2>
+        <div class="row sm-sp-bot">
+            <h2>Try out some GDD games!</h2>
         </div>
         <div class="row">
             <div>{{<games_random>}}</div>
         </div>
-        <div class="row" style="margin-top: 2rem;">
+        <div class="row lg-sp-top">
             <p><a class="button" href="/games">More Games</a></p>
         </div>
     </div>
 </section>
+
+<script>
+    const navbar = document.getElementsByClassName("nav-bar")[0];
+    navbar.style.backgroundColor = "rgba(255, 199, 0, 0.27)";
+</script>
+
         <!-- <h2 class="section-title">CONNECT TO OUR DISCORD!</h2>
             <iframe src="https://discordapp.com/widget?id=433080296057864192&theme=dark" width="350" height="500"
             allowtransparency="true" frameborder="0"></iframe>
