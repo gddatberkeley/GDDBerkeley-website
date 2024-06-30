@@ -43,6 +43,158 @@ p > a:not(.button) {
   justify-content: space-evenly;
 }
 
+.asset-image {
+  /* margin: 48px auto; */
+  margin: auto;
+  display: block;
+}
+
+section {
+  padding: 60px;
+}
+
+footer {
+  background: #DCF1FE;
+}
+
+mark {
+  color: var(--orange1);
+  background: none;
+  padding: 0;
+}
+
+p > mark {
+  font-weight: 600;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* Used for Decal Info */
+h4 {
+  margin: 0px;
+}
+
+main {
+  position: relative;
+  min-height: 80vh;
+  margin: auto;
+}
+
+/* probably change this to display: block */
+.button {
+  padding: 12px;
+  margin: 6px;
+  border-radius: 17px;
+  background: var(--blue1);
+
+  font-weight: bold;
+  color: #FFF;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background: color-mix(in srgb, var(--blue1) 80%, black);
+}
+
+/* == nav bar (top bar) == */
+.nav-title {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  color: var(--blue1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 54px;
+}
+
+.nav-bar a {
+  color: var(--blue1);
+}
+
+.nav-bar a:hover {
+  color: var(--orange1);
+}
+
+/* == games == */
+.game-widget img {
+  width: 260px;
+  height: 260px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.game-widget {
+  width: 260px;
+}
+
+.games-container {
+  display: flex;
+  overflow: auto;
+  padding: 20px;
+  gap: 60px;
+}
+
+.game-widget p {
+  color: var(--orange1);
+  font-size: 25px;
+  font-weight: 700;
+  margin: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: auto;
+}
+
+.bjwinner-widget img {
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* == footer == */
+
+footer {
+  margin-top: 32px;
+  padding: 55px;
+  text-align: center;
+
+  /* needed for ocf-badge to work */
+  position: relative;
+}
+footer h5 {
+  margin: 10px;
+
+  color: var(--orange1);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#ocf-badge {
+  position: absolute;
+  display: block;
+  right: 30px;
+  bottom: 30px;
+}
+
+#footer-links > a {
+  display: block;
+}
+
+#title-section {
+  width: 100%;
+}
+
+/* Bear Jams Page */
+.bjwinner-name {
+  color: black;
+  font-weight: bold;
+}
+
 /* == Desktop view == */
 @media (min-width: 500px) {
   .columns-container {
@@ -105,6 +257,11 @@ p > a:not(.button) {
   #title-img {
     width: 500px;
     height: 500px;
+  }
+
+  /* Bear Jams Page */
+  .bjwinner-descrip {
+    font-size: 16px;
   }
 }
 
@@ -184,146 +341,9 @@ p > a:not(.button) {
   #dp-buttons {
     font-size: 16px;
   }
-}
 
-.asset-image {
-  /* margin: 48px auto; */
-  margin: auto;
-  display: block;
-}
-
-section {
-  padding: 60px;
-}
-
-footer {
-  background: #DCF1FE;
-}
-
-mark {
-  color: var(--orange1);
-  background: none;
-  padding: 0;
-}
-
-p > mark {
-  font-weight: 600;
-}
-
-.center-text {
-  text-align: center;
-}
-
-/* Used for Decal Info */
-h4 {
-  margin: 0px;
-}
-
-main {
-  position: relative;
-  min-height: 80vh;
-  margin: auto;
-}
-
-/* probably change this to display: block */
-.button {
-  padding: 12px;
-  margin: 6px;
-  border-radius: 17px;
-  background: var(--blue1);
-
-  font-weight: bold;
-  color: #FFF;
-  white-space: nowrap;
-}
-
-.button:hover {
-  background: color-mix(in srgb, var(--blue1) 80%, black);
-}
-
-
-/* == nav bar (top bar) == */
-.nav-title {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-
-  color: var(--blue1);
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 54px;
-}
-
-.nav-bar a {
-  color: var(--blue1);
-}
-
-.nav-bar a:hover {
-  color: var(--orange1);
-}
-
-/* == games == */
-.game-widget img {
-  width: 260px;
-  height: 260px;
-  border-radius: 20px;
-  object-fit: cover;
-}
-
-.game-widget {
-  width: 260px;
-}
-
-.games-container {
-  display: flex;
-  overflow: auto;
-  padding: 20px;
-  gap: 60px;
-}
-
-.game-widget p {
-  color: var(--orange1);
-  font-size: 25px;
-  font-weight: 700;
-  margin: 10px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: auto;
-}
-
-/* == footer == */
-
-footer {
-  margin-top: 32px;
-  padding: 55px;
-  text-align: center;
-
-  /* needed for ocf-badge to work */
-  position: relative;
-}
-footer h5 {
-  margin: 10px;
-
-  color: var(--orange1);
-  font-size: 24px;
-  font-weight: 600;
-}
-
-#ocf-badge {
-  position: absolute;
-  display: block;
-  right: 30px;
-  bottom: 30px;
-}
-
-#footer-links > a {
-  display: block;
-}
-
-#title-section {
-  width: 100%;
+  /* == Bear Jams Page == */
+  .bjwinner-descrip {
+    font-size: 16px;
+  }
 }
