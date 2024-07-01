@@ -204,6 +204,14 @@ footer h5 {
     justify-content: space-evenly;
   }
 
+  .two-col-txtl {
+    text-align: start;
+  }
+
+  .two-col-txtr {
+    text-align: end;
+  }
+
   /* == Nav bar == */
   .nav-bar {
     display: flex;
@@ -311,6 +319,10 @@ footer h5 {
 
 /* == Mobile view == */
 @media (max-width: 500px) {
+  body {
+    text-align: center;
+  }
+
   /* == Nav bar == */
   .nav-bar {
     display: flex;
