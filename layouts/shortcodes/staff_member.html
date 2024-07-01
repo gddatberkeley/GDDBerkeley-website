@@ -3,9 +3,9 @@
 {{ if in .roles $role }}
 <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
     {{/* if and .image (fileExists (printf "static/%s" .image)) */}}
-    {{ with resources.Get (printf "gdrive/staff/%s" .image) }}
+    {{ with resources.Get (printf "assets/gdrive/staff/%s" .image) }}
     {{ with . | resources.Fingerprint "sha512" }}
-    <div class="mdl-card__title mdl-card--expand staff-member" style="background-image: url({{ .RelPermalink }})"></div>
+    <div class="mdl-card__title mdl-card--expand staff-member" style="background-image: url('{{ .RelPermalink }}')"></div>
         {{ end }}
     {{ else }}
         <div class="mdl-card__title mdl-card--expand staff-member" style="background-image: url(/images/gddicon.png)"></div>

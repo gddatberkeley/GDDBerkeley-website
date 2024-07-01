@@ -2,7 +2,63 @@
 title: "Staffs"
 ---
 <script type="text/javascript" src="/staff.js"></script>
-<div class="page-content">
+
+<section class="content">
+    <div class="container text-center">
+        <div class="row">
+            <h1 class="page-title">Staff</h1>
+        </div>
+        <div class="row">
+            <p>Meet our team!</p>
+        </div>
+        <div class="row">
+            {{<asset_image src="gdrive/officers-fa23.jpg">}}
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container text-center">
+        <div class="row">
+            <h2>Officer</h2>
+        </div>
+        <div class="row">
+            <p>Officers help keep the game dev community at Berkeley alive by hosting events and working on outreach!</p>
+        </div>
+        <div class="row">
+            {{<staff_mem src="gdrive/staff/officer">}}
+        </div>
+
+        <div class="row">
+            <div class="tabs-picker">
+                <span id="officerLink">Officer</span>
+                <span id="mentorLink">Mentor</span>
+                <span id="facilitatorLink">Facilitator</span>
+            </div>
+        </div>
+        <div class="row">
+            <div id="officerPage">
+                <div class="mdl-grid">
+                    {{<staff_member role="officers">}}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="facilitatorPage">
+                <div class="mdl-grid">
+                    {{<staff_member role="facilitators">}}
+                </div>
+            </div>
+            <div id="mentorPage">
+                <div class="mdl-grid">
+                    {{<staff_member role="mentors">}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <div class="page-content">
     <h1 class="page-title">Staff</h1>
     <div class="tabs-picker">
         <span id="officerLink">Officer</span>
@@ -24,4 +80,4 @@ title: "Staffs"
             {{< staff_member "mentors" >}}
         </div>
     </div>
-</div>
+</div> -->

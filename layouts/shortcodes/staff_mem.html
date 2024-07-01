@@ -1,0 +1,22 @@
+{{ range os.ReadDir (printf "%s%s" "assets/" (.Get "src")) }}
+{{ $image := (printf "%s/%s" ($.Get "src") (.Name)) }}
+{{ if not .IsDir }}
+    {{ with resources.Get $image }}
+        {{ with . | resources.Fingerprint "sha512" }}
+            <div class="col-sm">
+                <div class="row justify-content-center">
+                    <img src="{{ .RelPermalink }}" alt="..." style="width: 100px; height: 100px; padding: 0; object-fit: cover; border-radius: 20px;">   
+                </div>
+                <div class="row">
+                    <p><b>Name</b></p>
+                </div>
+                <div class="row">
+                    <p>Role</p>
+                </div>
+            </div>
+        {{ end }}
+    {{ else }}
+        {{ warnf "Image %s not found" $image }}
+        {{ end }}
+    {{ end }}
+{{ end }}
