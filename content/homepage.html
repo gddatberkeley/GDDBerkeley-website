@@ -86,19 +86,19 @@ h3 {
 
 <section class="content">
     <div class="container text-center">
-        <div class="row md-sp-bot">
-            <h2>Featured Events</h2>
-        </div>
         <div class="row">
-            <div class="col"></div>
-            <div class="col-6">
-                <!-- TODO: fix the img_multi -->
-                {{<img_multi src="gdrive/featured_event">}}
-            </div>
-            <div class="col"></div>
+            <h2>Featured Events</h2>
         </div>
     </div>
 </section>
+
+<div>
+    <!-- TODO: fix the img_multi -->
+    <!-- {{<img_multi src="gdrive/featured_event" width="100%" height="100%">}} -->
+    <div>
+        {{<featured src="gdrive/featured_event">}}
+    </div>
+</div>
 
 <section class="content">
     <div class="container text-center">
@@ -127,8 +127,14 @@ h3 {
 </section>
 
 <script>
+    // Set the navbar background color to yellow
     const navbar = document.getElementsByClassName("nav-bar")[0];
     navbar.style.backgroundColor = "rgba(255, 199, 0, 0.27)";
+
+    // Set the first item in the carousel to active
+    const first = document.getElementById("featured-carousel-contents").firstElementChild;
+    console.log(first);
+    first.className += " active";
 </script>
 
         <!-- <h2 class="section-title">CONNECT TO OUR DISCORD!</h2>

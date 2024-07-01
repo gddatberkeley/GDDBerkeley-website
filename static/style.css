@@ -311,6 +311,10 @@ footer h5 {
     height: 500px;
   }
 
+  #hp-calendar-iframe {
+    height: 800px;
+  }
+
   /* Bear Jams Page */
   .bjwinner-descrip {
     font-size: 16px;
