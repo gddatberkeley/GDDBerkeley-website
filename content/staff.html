@@ -26,34 +26,35 @@ title: "Staffs"
             <p>Officers help keep the game dev community at Berkeley alive by hosting events and working on outreach!</p>
         </div>
         <div class="row">
-            {{<staff_mem src="gdrive/staff/officer">}}
+            {{<staff_mem src="gdrive/staff-tmp" role="officer">}}
         </div>
+    </div>
+</section>
 
+<section class="content">
+    <div class="container text-center">
         <div class="row">
-            <div class="tabs-picker">
-                <span id="officerLink">Officer</span>
-                <span id="mentorLink">Mentor</span>
-                <span id="facilitatorLink">Facilitator</span>
-            </div>
+            <h2>Mentor</h2>
         </div>
         <div class="row">
-            <div id="officerPage">
-                <div class="mdl-grid">
-                    {{<staff_member role="officers">}}
-                </div>
-            </div>
+            <p>Mentors lead groups in the Party System. Join them to create a game together and receive guidance!</p>
         </div>
         <div class="row">
-            <div id="facilitatorPage">
-                <div class="mdl-grid">
-                    {{<staff_member role="facilitators">}}
-                </div>
-            </div>
-            <div id="mentorPage">
-                <div class="mdl-grid">
-                    {{<staff_member role="mentors">}}
-                </div>
-            </div>
+            {{<staff_mem src="gdrive/staff-tmp" role="mentor">}}
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container text-center">
+        <div class="row">
+            <h2>Facilitator</h2>
+        </div>
+        <div class="row">
+            <p>Facilitators run the Game Design and Development Decal at Berkeley!</p>
+        </div>
+        <div class="row">
+            {{<staff_mem src="gdrive/staff-tmp" role="facilitator">}}
         </div>
     </div>
 </section>

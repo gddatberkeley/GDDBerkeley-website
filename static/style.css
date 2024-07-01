@@ -195,6 +195,11 @@ footer h5 {
   font-weight: bold;
 }
 
+/* Staff Page */
+.staff-title {
+  font-size: 16px;
+}
+
 /* == Desktop view == */
 @media (min-width: 500px) {
   .columns-container {
@@ -285,6 +290,11 @@ footer h5 {
     margin-bottom: 1.5rem;
   }
 
+  .xs-sp-bot {
+    margin-bottom: 0.75rem;
+  }
+
+
   .lg-sp-top {
     margin-top: 4rem;
   }
@@ -318,6 +328,12 @@ footer h5 {
   /* Bear Jams Page */
   .bjwinner-descrip {
     font-size: 16px;
+  }
+
+  /* Staff Page */
+  .staff-member-img {
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -395,6 +411,10 @@ footer h5 {
     margin-bottom: 1rem;
   }
 
+  .xs-sp-bot {
+    margin-bottom: 0.5rem;
+  }
+
   .lg-sp-top {
     margin-top: 2rem;
   }
@@ -442,5 +462,11 @@ footer h5 {
   /* == Bear Jams Page == */
   .bjwinner-descrip {
     font-size: 16px;
+  }
+
+  /* Staff Page */
+  .staff-member-img {
+    width: 150px;
+    height: 150px;
   }
 }

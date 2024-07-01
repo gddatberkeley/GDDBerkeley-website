@@ -1,22 +1,41 @@
-{{ range os.ReadDir (printf "%s%s" "assets/" (.Get "src")) }}
-{{ $image := (printf "%s/%s" ($.Get "src") (.Name)) }}
-{{ if not .IsDir }}
-    {{ with resources.Get $image }}
-        {{ with . | resources.Fingerprint "sha512" }}
-            <div class="col-sm">
-                <div class="row justify-content-center">
-                    <img src="{{ .RelPermalink }}" alt="..." style="width: 100px; height: 100px; padding: 0; object-fit: cover; border-radius: 20px;">   
-                </div>
-                <div class="row">
-                    <p><b>Name</b></p>
-                </div>
-                <div class="row">
-                    <p>Role</p>
-                </div>
+{{ range $staff_members := .Site.Data.staff }}
+
+{{ $img := (printf "%s/%s" ($.Get "src") (.image)) }}
+{{ $name := (.name) }}
+{{ $title := (.title) }}
+{{ $roles := (.roles) }}
+
+{{ if and (not .IsDir) (in $roles ($.Get "role")) }}
+    {{ if eq (.image) "nil" }}
+        <div class="col-lg mx-1">
+            <div class="row justify-content-center xs-sp-bot">
+                <img class="staff-member-img img-fluid px-0" src="/images/gddicon.png" alt="..." style="object-fit: cover; border-radius: 20px;">   
             </div>
-        {{ end }}
+            <div class="row">
+                <p class="p-0 m-0"><b>{{ $name }}</b></p>
+            </div>
+            <div class="row">
+                <p class="staff-title">{{ $title }}</p>
+            </div>
+        </div>
     {{ else }}
-        {{ warnf "Image %s not found" $image }}
+        {{ with resources.Get ($img) }}
+            {{ with . | resources.Fingerprint "sha512" }}
+                <div class="col-lg mx-1">
+                    <div class="row justify-content-center xs-sp-bot">
+                        <img class="staff-member-img img-fluid px-0" src="{{ .RelPermalink }}" alt="..." style="object-fit: cover; border-radius: 20px;">   
+                    </div>
+                    <div class="row">
+                        <p class="p-0 m-0"><b>{{ $name }}</b></p>
+                    </div>
+                    <div class="row">
+                        <p class="staff-title">{{ $title }}</p>
+                    </div>
+                </div>
+            {{ end }}
+        {{ else }}
+            {{ printf "%s not found" ($img) }}
+            {{ end }}
         {{ end }}
     {{ end }}
 {{ end }}
