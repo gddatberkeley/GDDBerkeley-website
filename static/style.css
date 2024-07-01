@@ -200,6 +200,28 @@ footer h5 {
   font-size: 16px;
 }
 
+.img-container {
+  max-width: fit-content;
+  color: white;
+}
+
+.img-container p {
+  padding-top: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  text-align: start;
+  user-select: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
 /* == Desktop view == */
 @media (min-width: 500px) {
   .columns-container {
@@ -294,7 +316,6 @@ footer h5 {
     margin-bottom: 0.75rem;
   }
 
-
   .lg-sp-top {
     margin-top: 4rem;
   }
@@ -334,6 +355,10 @@ footer h5 {
   .staff-member-img {
     width: 200px;
     height: 200px;
+  }
+
+  .img-container p {
+    font-size: 1.5vw;
   }
 }
 
@@ -468,5 +493,9 @@ footer h5 {
   .staff-member-img {
     width: 150px;
     height: 150px;
+  }
+
+  .img-container p {
+    font-size: 3vw;
   }
 }
