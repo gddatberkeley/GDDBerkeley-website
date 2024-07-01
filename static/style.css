@@ -289,13 +289,13 @@ footer h5 {
     margin-top: 1.5rem;
   }
 
-  /* .two-col-imgl {
-    margin-right: 5rem;
+  .two-col-imgl {
+    padding-right: 2rem;
   }
 
   .two-col-imgr {
-    margin-left: 5rem;
-  } */
+    padding-left: 2rem;
+  }
 
   /* == Homepage == */
   #title-img {
