@@ -1,64 +1,66 @@
 [
     {
-        "name": "David Tan",
-        "title": "Vice President",
-        "image": "david.JPG",
-        "quote": "Sitting on the carpet chilling on the laptop~",
-        "bio": "Sup everyone, I’m David (sophomore studying computer science) and I am a programming mentor as well as the Vice President of this club! This is my third semester leading a game dev party and first semester as the VP, and I am always excited to see both the party members learn and a game grow from our wild ideas :)",
+        "name": "Hanze (David) Tan",
+        "title": "President",
+        "image": "david(hanze)_tan.JPG",
+        "quote": "Waiting for... Silksong...",
+        "bio": "Hello! My name is David and I am a senior studying Computer Science and Stats. I lived in China for 10 years and moved to New Zealand for 7 years before arriving at US, and at one point my English has both Chinese, Kiwi, and American accents. I play badminton and video games in my spare time. I used to play a lot of RPGs but have been recently into soulslike games. Hit me up if you want to chat about anything or want to play badminton together :D",
         "roles": ["officer"]
     },
     {
-        "name": "Connor Chang",
-        "title": "Webmaster",
-        "image": "nil",
-        "quote": "😜", 
-        "bio": " Hey! I’m Connor, a sophomore studying CS. I like video games. I play all the games from the club!",
+        "name": "Navi Emiliano",
+        "title": "Event Coordinator",
+        "image": "Navi_Emiliano.jpeg",
+        "quote": "Hey! Listen!", 
+        "bio": "Hii!! I'm Navi a 3rd-year studying EECS. Recently, I've been playing a lot of Stardew :DDD But outside of gaming I like to play volleyball, go to cafes, and explore! :))",
         "roles": ["officer"]
     },
     {
-        "name": "Jerry Li",
-        "title": "Lead Mentor",
-        "image": "jerry.png",
-        "quote": "Hi mom!",
-        "bio": "Howdy, the name’s Jerry. I’m a junior studying CS, and current lead mentor of GDD. During my time here, I’ve had the chance to explore my passion in game dev, and make friends with some talented, like-minded folks. I hope to provide that exp. to as many people as possible.",
-        "roles": ["mentor"]
+        "name": "Annika Liu",
+        "title": "Historian",
+        "image": "Annika_Liu.jpg",
+        "quote": "I live for fun 🍉",
+        "bio": "Hello! I'm a junior studying CS and this is my first year in GDD as an Officer! I have previously joined GDD DeCal as a Facilitator and now I'm back to the club! I love playing Overwatch and the Resident Evil series (tho I'm too scared to play many of it). Feel free to dm me if you ever wanna play together!",
+        "roles": ["officer"]
     },
     {
-        "name": "David Tan",
-        "title": "Mentor",
-        "image": "david.JPG",
-        "quote": "Sitting on the carpet chilling on the laptop~",
-        "bio": "Sup everyone, I’m David (sophomore studying computer science) and I am a programming mentor as well as the Vice President of this club! This is my third semester leading a game dev party and first semester as the VP, and I am always excited to see both the party members learn and a game grow from our wild ideas :)",
-        "roles": ["mentor"]
+        "name": "Kaitlyn McWalters",
+        "title": "Graphic Designer",
+        "image": "kaitlyn_mcwalters.png",
+        "quote": "omg there's a cat!!",
+        "bio": "Hi! I'm Kaitlyn, and I'm a senior studying Data Science and Design Innovation. I am passionate about the intersection between art and technology, and believe that creativity is just as important as technical skill! I joined GDD because I am interested in exploring how art and coding come together to form full-fledged games. I hope that my graphics can help spread the word about GDD and encourage more people to join our community!",
+        "roles": ["officer"]
     },
     {
-        "name": "Mateus",
-        "title": "Mentor",
-        "image": "mateus.jpg",
-        "roles": ["mentor"]
+        "name": "Jackie Dai",
+        "title": "Lead Facilitator/Mentor",
+        "image": "jackie_dai.jpg",
+        "quote": "'Theory is when you know everything but nothing works. Practice is when everything works but no one knows why. In [my head], theory and practice are combined: Nothing works and no one knows why.'",
+        "bio": "I'm a 3rd year CS major leading the GDD decal this year. In addition to leading the decal, I'm also a mentor in the party system. In the little free time I have, I enjoy badminton, photography, and my electric skateboard. Here's my insta: @apple_oww",
+        "roles": ["mentor", "facilitator"]
     },
     {
-        "name": "Kaif",
-        "title": "Mentor",
-        "image": "kaif.png",
-        "quote": "Oh-ho-ho! I can tell you’ll have some new stories tonight!",
-        "bio": "Hello y’all! My name is Kaif and I’m currently a freshman studying EECS. I love indie games of all kinds, such as Hollow Knight, Hades, and Omori, and am also a huge Minecraft Modding geek. My strong suits when it comes to game development is music and game design, but I’m also experienced in using Unity for other utilities (i.e simulations), so hmu if you wanna talk about music or Indie Games.",
-        "roles": ["mentor"]
-    },
-    {
-        "name": "Vienna",
-        "title": "Mentor (Art)",
-        "image": "Vienna_Laughlin.png",
-        "quote": "“You better hold on tight, Spidermonkey.” ",
-        "bio": "Hello, I’m Vienna! I’m a third year transfer student (from Cuesta College) studying art practice with a minor in art history. I’m interested in visual development such as concept art, illustration, and more. When it comes to gaming, I’m currently enjoying a few different games: such as Stardew Valley, Hollow Knight, and Sundered Eldritch Edition. I look forward to helping out in the club as an art mentor and making some cool games!",
-        "roles": ["mentor"]
-    },
-    {
-        "name": "Jackie",
+        "name": "Joshua",
         "title": "Lead Facilitator",
-        "image": "Jackie_Dai.jpg",
-        "quote": "Roses are orange, lemons are red, oranges are yellow, refrigerator.",
-        "bio": "Hey, I’m Jackie and currently a freshman studying CS. I’m a mentor for the party system and also take photos for the club as historian. I love teaching and making games, hopefully we get to work together someday. Also I play badminton, so hit me up if you want to play!",
+        "image": "joshua_almario.jpg",
+        "quote": "If every porkchop were perfect, we wouldn't have hot dogs.",
+        "bio": "Hello! I'm Josh, a sophomore studying EECS and a lead facilitator for the Game Design and Development Decal! Teaching is a great way for me to share the joys (and frustrations) of game development with other people, and I hope to meet you all through the club and Decal and lament about gacha games!",
         "roles": ["facilitator"]
+    },
+    {
+        "name": "Shibo Jiang",
+        "title": "Decal Facilitator",
+        "image": "Shibo_Jiang.jpg",
+        "quote": "Boba is mid",
+        "bio": "Hey everyone! I'm Shibo, a senior studying CS. I took the game development decal last semester and had an absolute blast. It was so much fun, in fact, that I decided to come back and be a facilitator this time around! When I'm not diving into code, you can find me on my guitar or playing games like Apex Legends or Dead by Daylight. Overall, I look forward to meeting all the new decal students and I hope I can help make this a memorable experience as it was for me.",
+        "roles": ["facilitator"]
+    },
+    {
+        "name": "Darren Ting",
+        "title": "Lead Mentor",
+        "image": "darren_ting.jpg",
+        "quote": "'...yet my arm continues to safeguard the porcelain cup.'",
+        "bio": "Hi everyone! I'm Darren, I'm a sophomore studying Computer Science. I've always wanted to make games, and I hope to inspire others to share that passion. I hope that by joining the club you'll get to find a new interest (or grow your ability) in one of the many roles of game development! See you soon!",
+        "roles": ["mentor"]
     }
 ]
