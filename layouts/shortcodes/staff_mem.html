@@ -10,7 +10,7 @@
 {{ if and (not .IsDir) (in $roles ($.Get "role")) }}
     {{ $role := ($.Get "role") }}
     {{ if eq (.image) "nil" }}
-        <div class="col-lg mx-1">
+        <div class="col">
             <div class="row justify-content-center xs-sp-bot">
                 <div class="img-container text-wrap" style="position: relative; padding: 0;">
                     <img class="staff-member-img img-fluid px-0" id="{{ $name }}-{{ $role }}-staff-img" src="/images/gddicon.png" alt="..." onmouseenter="showBioQuote(this)" style="object-fit: cover; border-radius: 20px;">
@@ -36,7 +36,7 @@
     {{ else }}
         {{ with resources.Get ($img) }}
             {{ with . | resources.Fingerprint "sha512" }}
-                <div class="col-lg mx-1">
+                <div class="col">
                     <div class="row justify-content-center xs-sp-bot">
                         <div class="img-container text-wrap" style="position: relative; padding: 0;">
                             <img class="staff-member-img img-fluid px-0" id="{{ $name }}-{{ $role }}-staff-img" src="{{ .RelPermalink }}" alt="..." onmouseenter="showBioQuote(this)" style="object-fit: cover; border-radius: 20px;">
