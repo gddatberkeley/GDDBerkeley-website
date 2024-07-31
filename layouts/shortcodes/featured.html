@@ -10,12 +10,10 @@
 
     {{ $image := (printf "%s/%s" ($.Get "src") (.Name)) }}
     {{ if not .IsDir }}
-        {{ with resources.Get $image }}
-            {{ with . | resources.Fingerprint "sha512" }}
-                <div class="carousel-item">
-                    <img src="{{ .RelPermalink }}" class="d-block w-100" alt="..." style="object-fit: cover;">
-                </div>
-            {{ end }}
+        {{ with resources.Get $image | resources.Fingerprint "sha512" }}
+            <div class="carousel-item">
+                <img src="{{ .RelPermalink }}" class="d-block w-100" alt="..." style="object-fit: cover;">
+            </div>
         {{ else }}
             {{ warnf "Image %s not found" $image }}
             {{ end }}
