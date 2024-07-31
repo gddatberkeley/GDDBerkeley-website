@@ -223,7 +223,7 @@ footer h5 {
 }
 
 /* == Desktop view == */
-@media (min-width: 500px) {
+@media (min-width: 750px) {
   .columns-container {
     display: flex;
     align-items: center;
@@ -328,12 +328,16 @@ footer h5 {
     margin-top: 1.5rem;
   }
 
-  .two-col-imgl {
-    padding-right: 2rem;
+  /* Bootstrap has gx-* for "gutter", but it doesn't work when wrapped
+   * Ideally we wrap only in mobile view but IDK how to do that.
+   */
+  .two-col-container {
+    gap: 2rem;
   }
 
-  .two-col-imgr {
-    padding-left: 2rem;
+  /* Max width to wrap earlier. */
+  .two-col-img {
+    min-width: 400px;
   }
 
   /* == Homepage == */
@@ -363,7 +367,7 @@ footer h5 {
 }
 
 /* == Mobile view == */
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   body {
     text-align: center;
   }
@@ -452,12 +456,12 @@ footer h5 {
     margin-top: 1rem;
   }
 
-  .two-col-imgl {
-    margin-bottom: 1.5rem;
+  .two-col-container {
+    gap: 1.5rem;
   }
 
-  .two-col-imgr {
-    margin-top: 1.5rem;
+  .two-col-img {
+    min-width: 400px;
   }
 
   /* == Homepage == */
