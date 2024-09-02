@@ -62,5 +62,61 @@
         "quote": "'...yet my arm continues to safeguard the porcelain cup.'",
         "bio": "Hi everyone! I'm Darren, I'm a sophomore studying Computer Science. I've always wanted to make games, and I hope to inspire others to share that passion. I hope that by joining the club you'll get to find a new interest (or grow your ability) in one of the many roles of game development! See you soon!",
         "roles": ["mentor"]
+    },
+    {
+        "name": "Sabrina Kuang",
+        "title": "Decal Facilitator",
+        "image": "sabrina_kuang.jpg",
+        "quote": "\"Don't wish it were easier, wish you were better.\" – Chief, Animal Crossing.",
+        "bio": "Hihi! I'm a 3rd year EECS major who likes to draw. If I'm not on my Stardew farm (Krobus ♥), you can probably catch me screaming on overcooked. PLEASE NO HADES 2 SPOILERS!!! ",
+        "roles": ["facilitator"]
+    },
+    {
+        "name": "Viktor Mooren",
+        "title": "Decal Facilitator",
+        "image": "Viktor_Mooren.jpg",
+        "quote": "\"and the universe said I love you because you are love.\"",
+        "bio": "Hi there! I'm a 3rd year studying Computer Science with a Philosophy minor. Originally from London, UK, I spend most of my days trying to come to grips with American customs such as Costco Hotdogs and \"Wyoming\". I can't wait to be teaching the Decal!",
+        "roles": ["facilitator"]
+    },
+    {
+        "name": "CW Jung",
+        "title": "Treasurer",
+        "image": "CW_Jung.jpg",
+        "quote": "Just play. Have fun. Enjoy the game.",
+        "bio": "Hi everyone! I'm CW a senior majoring in Data Science. I'll be GDD's treasurer for this year and part of the club's party system. Outside of school, I'm either in the gym or rolling around in my room :)",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Jack West",
+        "title": "Industry Outreach",
+        "image": "nil",
+        "quote": "\"The only time to start is now.\"",
+        "bio": "Hey y'all! My name is Jack (He/Him), and I am one of the Industry Outreach Officers for the club. I enjoy writing, playing pool, and reading anything and everything written by Brandon Sanderson. Let's make some awesome games together this semester!",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Kaitlyn McWalters",
+        "title": "Graphic Designer",
+        "image": "kaitlyn_mcwalters.png",
+        "quote": "hjfdksaldmsdddddddddddddc <- my cat says hi",
+        "bio": "Hi I'm Kaitlyn, and I'm a senior studying data science and design! I am passionate about the intersection between technology and art, and strongly believe that everyone is capable of learning both types of skills! Some of my favorite games include Omori, Identity V, and Fire Emblem. Feel free to reach out about anything :) ",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Vittoria Barone",
+        "title": "Vice President",
+        "image": "Vittoria_Barone.JPG",
+        "quote": "",
+        "bio": "Hello everyone! My name is Vittoria, and I am the Vice President of GDD! I am currently a sophmore at UC Berkeley, majoring in Film and Media. My primary expertise in the gaming field is narrative writing, but I am always picking up new skills as I go! Some of my favorite games are the Legend of Zelda series, the Evil Within 2, and Minecraft!\nLastly, check out my latest game, Free Will, on Steam! Since our launch this summer, we have over 3,000 unique players  and counting! :)",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Connor Chang",
+        "title": "Webmaster",
+        "image": "connor_chang.jpeg",
+        "quote": "😜",
+        "bio": " Hey! I’m Connor, a junior studying CS. I like video games. I play all the games from the club!",
+        "roles": ["officer"]
     }
 ]

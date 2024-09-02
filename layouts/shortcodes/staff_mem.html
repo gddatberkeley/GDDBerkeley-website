@@ -9,7 +9,7 @@
 
 {{ if and (not .IsDir) (in $roles ($.Get "role")) }}
     {{ $role := ($.Get "role") }}
-    {{ if eq (.image) "nil" }}
+    {{ if or (eq (.image) "nil") (eq (.image) "") }}
         <div class="col">
             <div class="row justify-content-center xs-sp-bot">
                 <div class="img-container text-wrap" style="position: relative; padding: 0;">
@@ -34,8 +34,10 @@
             </div>
         </div>
     {{ else }}
+        {{ if and $img (fileExists (printf "assets/%s" $img)) }}
         {{ with resources.Get ($img) }}
             {{ with . | resources.Fingerprint "sha512" }}
+            {{ warnf "%s" . }}
                 <div class="col">
                     <div class="row justify-content-center xs-sp-bot">
                         <div class="img-container text-wrap" style="position: relative; padding: 0;">
@@ -60,8 +62,9 @@
                     </div>
                 </div>
             {{ end }}
+        {{ end }}
         {{ else }}
-            {{ printf "%s not found" ($img) }}
+            {{ warnf "assets/%s not found" ($img) }}
             {{ end }}
         {{ end }}
     {{ end }}
