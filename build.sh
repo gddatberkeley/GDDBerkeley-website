@@ -2,7 +2,7 @@
 
 PATH=$PATH:~/bin
 
-if rclone check gdrive:website-assets assets/gdrive; then
+if rclone check gdd-gdrive:website-assets assets/gdrive; then
     echo "(¬‿¬) No differences detected."
 else
     # File are different
