@@ -8,6 +8,14 @@
         "roles": ["officer"]
     },
     {
+        "name": "Vittoria Barone",
+        "title": "Vice President",
+        "image": "Vittoria_Barone.JPG",
+        "quote": "",
+        "bio": "Hello everyone! My name is Vittoria, and I am the Vice President of GDD! I am currently a sophmore at UC Berkeley, majoring in Film and Media. My primary expertise in the gaming field is narrative writing, but I am always picking up new skills as I go! Some of my favorite games are the Legend of Zelda series, the Evil Within 2, and Minecraft!\nLastly, check out my latest game, Free Will, on Steam! Since our launch this summer, we have over 3,000 unique players  and counting! :)",
+        "roles": ["officer"]
+    },
+    {
         "name": "Navi Emiliano",
         "title": "Event Coordinator",
         "image": "Navi_Emiliano.jpeg",
@@ -93,14 +101,6 @@
         "image": "nil",
         "quote": "\"The only time to start is now.\"",
         "bio": "Hey y'all! My name is Jack (He/Him), and I am one of the Industry Outreach Officers for the club. I enjoy writing, playing pool, and reading anything and everything written by Brandon Sanderson. Let's make some awesome games together this semester!",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Vittoria Barone",
-        "title": "Vice President",
-        "image": "Vittoria_Barone.JPG",
-        "quote": "",
-        "bio": "Hello everyone! My name is Vittoria, and I am the Vice President of GDD! I am currently a sophmore at UC Berkeley, majoring in Film and Media. My primary expertise in the gaming field is narrative writing, but I am always picking up new skills as I go! Some of my favorite games are the Legend of Zelda series, the Evil Within 2, and Minecraft!\nLastly, check out my latest game, Free Will, on Steam! Since our launch this summer, we have over 3,000 unique players  and counting! :)",
         "roles": ["officer"]
     },
     {
