@@ -1,4 +1,37 @@
-[ {"semester": "Spring 2024", 
+[ 
+	{"semester": "Spring 2024", 
+		"games": [{
+			"name": "Switch",
+			"link": "https://mikejemmanuelbk.itch.io/switch",
+			"image": "https://img.itch.zone/aW1nLzE4OTI4ODMwLnBuZw==/315x250%23c/AdhK3s.png"
+		},
+		{
+			"name": "Project Pirate",
+			"link": "https://charliebeepboop.itch.io/project-pirate",
+			"image": "https://img.itch.zone/aW1nLzE4ODcwODU3LnBuZw==/315x250%23c/4ImCAg.png"
+		},
+		{
+			"name": "The Missing",
+			"link": "https://yuioo.itch.io/the-missing?secret=ZV4kYmhy5dizh6iyaAw38ktcrFQ",
+			"image": "https://img.itch.zone/aW1nLzE4OTI1MDEwLmpwZWc=/315x250%23c/vYHKfG.jpeg"
+		},
+		{
+			"name": "Can You Picture Heaven?",
+			"link": "https://lefortune.itch.io/cyph",
+			"image": "https://img.itch.zone/aW1nLzE4ODczMTY2LnBuZw==/315x250%23c/LwHLPQ.png"
+		},
+		{
+			"name": "Relica",
+			"link": "https://ijinyu1113.itch.io/relica",
+			"image": "https://img.itch.zone/aW1nLzE4ODczNTMwLnBuZw==/315x250%23c/ZkuqgM.png"
+		},
+		{
+			"name": "Father's Crematoria",
+			"link": "https://theonlycool1.itch.io/fathers-crematoria",
+			"image": "https://img.itch.zone/aW1nLzE4NDUxNjc4LnBuZw==/315x250%23c/P42oOJ.png"
+		}
+		]},
+{"semester": "Spring 2024", 
 "games": [{
 		"name": "Danger: Lurkers",
 		"link": "https://dtanxxx.itch.io/danger-lurkers",
