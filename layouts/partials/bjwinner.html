@@ -1,0 +1,17 @@
+<div class="bjwinner-widget text-center">
+    <div class="row">
+        <a target="_blank" href='{{ .link }}' style="padding: 0;">
+            {{ if .image }}
+            <img src='{{ .image }}' class="mx-auto" />
+            {{ else }}
+            <img src='/images/gddicon.png' class="mx-auto" />
+            {{ end }}
+        </a>
+    </div>
+    <div class="row" style="margin-top: 1rem;">
+        <p class="bjwinner-name">{{ .name }}</p>
+    </div>
+    <div class="row" style="margin-bottom: 1.5rem;">
+        <p class="bjwinner-descrip">{{ .descrip }}</p>
+    </div>
+</div>

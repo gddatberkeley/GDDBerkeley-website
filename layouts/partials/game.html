@@ -1,10 +1,11 @@
-<a class="game-widget" target="_blank" href='{{ .link }}'>
-    <div>
+{{/* TODO: resize image with hugo */}}
+<div class="game-widget">
+    <a target="_blank" href='{{ .link }}'>
         {{ if .image }}
-            <div style='background-image: url({{ .image }})'></div>
+        <img src='{{ .image }}' />
         {{ else }}
-            <div style='background-image: url(/images/gddicon.png)'></div>
+        <img src='/images/gddicon.png' />
         {{ end }}
         <p>{{ .name }}</p>
-    </div>
-</a>
+    </a>
+</div>

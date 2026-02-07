@@ -1,9 +1,9 @@
-{{ $image := .Get 0 }}
+{{ $image := (or (.Get 0) (.Get "src")) }}
 {{ $width := (or (.Get "width") "100%") }}
 {{ $height := (or (.Get "height") "100%") }}
 {{ with resources.Get $image }}
 {{ with . | resources.Fingerprint "sha512" }}
-<img src='{{ .RelPermalink }}' style="width: {{ $width }}; height: {{ $height }}; border-radius: 4px; object-fit: cover;" />
+<img src='{{ .RelPermalink }}' class="asset-image" style="width: {{ $width }}; height: {{ $height }}; border-radius: 20px; object-fit: cover;" />
 {{ end }}
 {{ else }}
     {{ warnf "Image %s not found" $image }}

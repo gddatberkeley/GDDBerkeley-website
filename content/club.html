@@ -1,70 +1,112 @@
 ---
 title: "Club"
 ---
-<script src="/club.js"></script>
-<div class="page-content">
-    <!-- Your content goes here -->
-    <h1 class="page-title">Club</h1>
-    <div class="tabs-picker">
-        <span id="aboutLink">About</span>
-        <span id="partiesLink">Parties</span>
-        <span id="eventsLink">Events</span>
-    </div>
-    <div id="aboutPage">
-        <div class="page-main">
-            <div style="height: 350px;">
-                {{< img_multi src="gdrive/club-about" >}}
-            </div>
-            <p>
-            <span style="font-size: 26px; font-weight: bold; color: #F5C35B; margin-bottom: 10px; display: block;">Join Cal’s game dev community!</span>
-            The Game Design and Development Club is a great way to become a part of Cal's game development community. Regardless of whether or not you have prior experience, you’re welcome to come join us! For those who want to learn, either try out our Decal or join a Party. If you don’t want to commit that hard, you’re welcome to all of our semesterly events. 
-            <br/><br/>
-            Above all, the club is a place to hang out and discuss all things game-related. To get involved, simply join our Discord server and you officially be a GDD member!
-            <br><br>
-            <a href="https://tinyurl.com/GDDatBerkeley">Join Our Discord</a>
-            </p>
+<!-- <script src="/club.js"></script> -->
+<section class="content">
+    <div class="container text-center">
+        <div class="row md-sp-bot">
+            <h1>Join the GDD Community!</h1>
         </div>
-        <div class="page-content" style="margin-top: 0">
+        <div class="row md-sp-bot">
+            <p>GDD is a great way to become a part of Cal's game development community, regardless of experience!  Interested in learning?  Try out our Decal or join a Party. You’re also welcome to all of our semesterly events. To get involved, simply join our <mark>Discord</mark> server and you officially be a GDD member!</p>
+        </div>
+        <div class="row">
+            {{<asset_image src="gdrive/club-about/caltopia-1.jpg" width="800px">}}
+        </div>
+        <div class="row lg-sp-top">
+            <p><a class="button" href="https://discord.gg/yaFYJxc" target="_blank">Join our Discord</a></p>
         </div>
     </div>
-    <div id="partiesPage">
-        <div class="page-main">
-            <div style="height: 350px;">
-                {{< img_multi src="gdrive/club-parties" >}}
+</section>
+
+<section class="content">
+    <div class="container">
+        <div class="row two-col-container">
+            <div class="col-sm two-col-txtl">
+                <div class="row sm-sp-bot">
+                    <h2>Events</h2>
+                </div>
+                <div class="row">
+                    <p>GDD hosts a number of large events every semester. One of these is our <mark>Industry Speaker events</mark>, where you’ll get to hear from professionals already working in the industry!</p>
+                    <p>We also have <mark>Bear Jams</mark>, our semesterly game jam. Participants have 45 hours to make a game from scratch. And, of course, we have our Semester Showcase, where you’ll get to see the incredible games the Decal teams and Parties have whipped up this semester!</p>     
+                </div>
+                <div class="row md-sp-top">
+                    <p><a class="button" href="https://tinyurl.com/GDDCalendar" target="_blank">Our Calendar</a></p>
+                </div>
             </div>
-            <p>
-            <span style="font-size: 26px; font-weight: bold; color: #F5C35B; margin-bottom: 10px; display: block;">Learn by doing and make a game!</span>
-            If you’re looking to learn how to make games outside of class, joining a Party is the way to go! Parties are groups of students led by a staff Mentor. Together, you’ll make a game, start to finish, in one semester! 
-            <br/><br/>
-            All levels of experiences are welcome. Beginners will learn game dev basics hands on by working on the game under their Mentor’s guidance. It’s also a great chance to get to know your fellow club members and make some friends!
-            <br><br>
-            <a href="https://tinyurl.com/GDDatBerkeley">Check Discord For More Info</a>
-            </p>
+            <div class="col-sm two-col-img">
+                {{<asset_image src="gdrive/club-events/Ultrakill-5.jpg">}}
+            </div>
         </div>
-        <div style="margin-top: 50px;">
-            <h2 class="section-title">Try out some GDD Party games!</h2>
-            <div class="mdl-grid">
-                {{< games_featured "Roboto's Escape" "Stranded" "Pigmental v.0" >}}
+        
+    </div>
+</section>
+
+<section class="content">
+    <div class="container">
+        <div class="row two-col-container">
+            <div class="col-sm two-col-img">
+                {{<asset_image src="gdrive/club-parties/shreyster.jpg">}}
+            </div>
+            <div class="col-sm two-col-txtr">
+                <div class="row sm-sp-bot">
+                    <h2>Parties</h2>
+                </div>
+                <div class="row">
+                    <p>If you’re looking to learn how to make games outside of class, joining a Party is the way to go! Parties are groups of students led by a staff Mentor. Together, you’ll make a game, start to finish, in one semester!</p>
+                    <p><mark>All levels of experiences are welcome.</mark> Beginners will learn game dev basics hands on by working on the game under their Mentor’s guidance. It’s also a great chance to get to know your fellow club members and make some friends!</p>
+                </div>
+                <div class="row md-sp-top">
+                    <p><a class="button" href="https://discord.gg/yaFYJxc" target="_blank">Our Discord</a></p>
+                </div>
             </div>
         </div>
     </div>
-    <div id="eventsPage">
-        <!--<p style="text-align: center; font-size: 50px; line-height: 300px; color: #F5C35B">In Construction</p>-->
-        <div class="page-main">
-            <div style="height: 350px;" >
-                {{< img_multi src="gdrive/club-events" >}}
-            </div>
-            <p>
-            <span style="font-size: 26px; font-weight: bold; color: #F5C35B; margin-bottom: 10px; display: block;">Hear it straight from the pros!</span>
-            GDD hosts a number of large events every semester. One of these is our Industry Speaker events, where you’ll get to hear from professionals already working in the industry!
-            <br/><br/>
-            We also have Bear Jams, our semesterly game jam. Participants have 45 hours to make a game from scratch. And, of course, we have our Semester Showcase, where you’ll get to see the incredible games the Decal teams and Parties have whipped up this semester!
-            <br><br>
-            <a href="https://tinyurl.com/GDDCalendar">Google Calendar</a>
-            <a href="https://calendar.google.com/calendar/ical/6kfb8nisut8k5u07e6d5591kjs%40group.calendar.google.com/public/basic.ics" style="margin-left: 15px">Add to other calendar (iCal)</a>
-            </p>
+</section>
+
+<section class="content">
+    <div class="container text-center">
+        <div class="row sm-sp-bot">
+            <h2>Try out some GDD games! </h2>
+        </div>
+        <div class="row">
+            <div>{{<games_random>}}</div>
+        </div>
+        <div class="row lg-sp-top">
+            <p><a class="button" href="/games">More Games</a></p>
         </div>
     </div>
+</section>
+
+<section class="content">
+    <div class="container text-center">
+        <div class="row md-sp-bot" style="padding: 0.5rem; background-color: #DCF1FE;">
+            <h2>Thank you to our Funders!</h2>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-4">
+                {{<asset_image src="gdrive/thank_funders.jpg">}}
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row md-sp-top">
+            <h3>Spring '23</h3>
+        </div>
+        <div class="row">
+            <p>Billy Le | Ty Do | Sophal Chan | Luan Do | Duy Le | Lei Wang | Phong Tran | Weimin Tan | Alex Nguyen | Alston Chan</p>
+        </div>
+        <div class="row">
+            <h3>Fall '22</h3>
+        </div>
+        <div class="row">
+            <p>Brent Batas | Daniel Cho | Jaime Lee | Christian Strohm | Nikolaos Tzaneteas</p>
+        </div>
+    </div>
+</section>
+
+            <!-- <a href="https://tinyurl.com/GDDCalendar">Google Calendar</a> -->
+            <!-- <a href="https://calendar.google.com/calendar/ical/6kfb8nisut8k5u07e6d5591kjs%40group.calendar.google.com/public/basic.ics" style="margin-left: 15px">Add to other calendar (iCal)</a> -->
     <!--
         <h1 class="section-title" id="course-description">Projects: Spring 2019 Club</h1>
         <div class="mdl-grid">
@@ -100,4 +142,3 @@ title: "Club"
         width="552" frameborder="0"></iframe>
         </div>
     -->
-</div>

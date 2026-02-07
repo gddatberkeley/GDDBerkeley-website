@@ -2,62 +2,141 @@
 title: ""
 url: /
 ---
-<div class="page-title" style="margin-top: 3%; margin-right: 0%; margin-left: 0%;">
-    <br />
-    <img src="/images/gddbanner.png" id="bighomeimage"></img>
-    <div class="mdl-shadow--3dp" style="background-color:white; height: 100%; width: 100%; opacity: .5;"></div>
-</div>
-<div class="page-content" style="margin-top: 0">
-    <a href="https://tinyurl.com/GDDatBerkeley" target="_blank" id="joindisc">Join Our Discord</a>
-    <div id="index-intro">
-        <div>
-            <h2 class="section-title">The Club</h2>
-            <p>The Game Design and Development Club is a great way to become a part of Cal's game development community. Regardless of if you have taken the decal or if you are student or alumni, you can join the club and apply for an appropriate role based on your skills, and if you'd like, form a game development team and be mentored by (or mentor!) fellow students as you work toward making your game. In the real world, we plan to host events including hackathons and guest speakers. Otherwise, the club is a somewhere to discuss and play all things game related. We'd love to have you! To get involved, simply join our Discord server and it will walk you through the rest of the process.</p>
-            <br>
-            <a href="club">Learn More</a>
-        </div>
-        <div>
-            <h2 class="section-title">The Decal</h2>
-            <p>This course is a deep dive into the creation of games, from beginning to end. Over the course of the semester, students will pitch a game, form small teams, and build a project from start to finish with help from the instructors. Students are not required to have any prior game development experience but it is required that a student taking the course either has basic art, music or programming abilities.</p>
-            <br>
-            <a href="/decal">Learn More</a>
-        </div>
-    </div>
-</div>
-<div class="section-main" style="margin-top: 100px; background-color: #08396e;">
-    <div class="page-content">
-        <h2 class="section-title">Try out some random GDD games! <a href="/games">More Games</a></h2>
-        <div class="mdl-grid">
-            {{< games_random >}}
-        </div>
-    </div>
-</div>
-<div class="section-main">
-    <div class="page-content">
-        <h2 class="section-title" style="text-align: center;">Join the Community!</h2>
-        <div class="page-main">
-            <div style="width: 690px;">
-                {{< asset_image "gdrive/homepage-staff.jpg" >}}
+
+<style>
+#title-section {
+    background: linear-gradient(180deg, rgba(255, 199, 0, 0.27) 7.2%, rgba(3, 161, 255, 0.27) 65.01%);
+}
+h1 {
+    color: #15A8FF;
+    line-height: 1.5;
+}
+h3 {
+    color: #005486;
+}
+</style>
+<section id="title-section">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align: start;">
+                    <mark>G</mark>ame<br>
+                    <mark>D</mark>esign<br>
+                    <mark>D</mark>evelopment<br>
+                at Berkeley
+                </h1>
+                <h3 style="margin-top: 2.5rem; margin-bottom: 2rem;">An inviting community for Berkeley students interested in game design and development!</h3>
+                <br>
+                <p><a class="button" href="https://discord.gg/yaFYJxc" target="_blank">Join Our Community</a></p>
             </div>
-            <p style="width: 630px;">
-            We host many fun events throughout the semester, such as field trips to events such as GDC (Game Developers Conference—the largest game developer conference in the world!) and Day of the Devs, board game nights, playtests, and a showcase at the end of every semester! We also have text and voice channels in Discord dedicated to connecting people together based on common interests such as gaming or developing games as well, so we stay connected whether online or offline, it doesn't matter. Every semester we bring passionate devs together through our party system: club members get to join a team for the semester and work with others on the team to complete a game. This is a great opportunity to both gain game development experience as well as meet new people! And if you have no prior experience, dont worry—each party has an assigned mentor to help you learn and grow as a game developer. Jump in!
-            <br><br>
-            <a href="https://tinyurl.com/GDDatBerkeley" style="margin-right: 10px">Discord</a>
-            <a href="https://linktr.ee/gddatberk">LinkTree</a>
-            </p>
+            <div class="col">
+                <img src="/images/icon.png" id="title-img">
+            </div>
         </div>
     </div>
-</div>
-<div class="section-main">
-    <div class="page-content" style="background-color: #08396e;">
-        <h2 class="section-title">Featured Events <a href="/club?tab=events">Find Out More</a></h2>
-            {{< img_multi src="gdrive/featured_event" >}}
+</section>
+
+<br>
+
+<section class="content">
+    <div class="container">
+        <div class="row two-col-container">
+            <div class="col-sm two-col-txtl">
+                <div class="row lg-sp-bot">
+                    <h2>Our Community</h2>
+                </div>
+                <div class="row lg-sp-bot">
+                    <p>Join <mark>Cal's Game Design and Development Club</mark> to connect with fellow gamers. Whether you're a student, alumni, or have taken the decal, you're all welcome. Apply for a role, build a game team, and get mentorship from peers. We'll also host hackathons and guest speakers. Join us - we'd love to have you!</p>
+                </div>
+                <div class="row">
+                    <div style="line-height: 60px;">
+                        <a class="button" href="/club">Learn more</a>
+                        <a class="button" href="https://linktr.ee/gddatberk" target="_blank">Linktree</a>
+                        <a class="button" href="https://discord.gg/yaFYJxc" target="_blank">Discord</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm two-col-img">
+                {{<asset_image src="gdrive/homepage-staff.jpg">}}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container">
+        <div class="row two-col-container">
+            <div class="col-sm two-col-img">
+                {{<asset_image src="gdrive/decal-fa23.jpg">}}
+            </div>
+            <div class="col-sm two-col-txtr">
+                <div class="row lg-sp-bot">
+                    <h2>Decal</h2>
+                </div>
+                <div class="row lg-sp-bot">
+                    <p>Our <mark>Video Game Design and Development Decal</mark> covers game creation from start to finish. Throughout the semester, students will pitch a game, form teams, and complete a project with instructor guidance. No prior game development experience is necessary, but basic art, music, or programming skills are required.</p>
+                </div>
+                <div class="row">
+                    <p><a class="button" href="/decal">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container text-center">
+        <div class="row">
+            <h2>Featured Events</h2>
+        </div>
+    </div>
+</section>
+
+<div class="content">
+    <!-- TODO: fix the img_multi -->
+    <!-- {{<img_multi src="gdrive/featured_event" width="100%" height="100%">}} -->
+    <div>
+        {{<featured src="gdrive/featured_event">}}
     </div>
 </div>
-<div class="section-main">
-    <div class="page-content">
-        <h2 class="section-title">Upcoming Events</h2>
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=NmtmYjhuaXN1dDhrNXUwN2U2ZDU1OTFranNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+<section class="content">
+    <div class="container text-center">
+        <div class="row md-sp-bot">
+            <h2>Check out our events!</h2>
+        </div>
+        <div class="row" id="hp-calendar">
+            <!-- TODO: use better calender (fullcalendar) -->
+            <iframe id="hp-calendar-iframe" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=NmtmYjhuaXN1dDhrNXUwN2U2ZDU1OTFranNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border:solid 1px #777" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="container text-center">
+        <div class="row sm-sp-bot">
+            <h2>Try out some GDD games!</h2>
+        </div>
+        <div class="row">
+            <div>{{<games_random>}}</div>
+        </div>
+        <div class="row lg-sp-top">
+            <p><a class="button" href="/games">More Games</a></p>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Set the navbar background color to yellow
+    const navbar = document.getElementsByClassName("nav-bar")[0];
+    navbar.style.backgroundColor = "rgba(255, 199, 0, 0.27)";
+
+    // Set the first item in the carousel to active
+    const first = document.getElementById("featured-carousel-contents").firstElementChild;
+    // console.log(first);
+    first.className += " active";
+</script>
+
         <!-- <h2 class="section-title">CONNECT TO OUR DISCORD!</h2>
             <iframe src="https://discordapp.com/widget?id=433080296057864192&theme=dark" width="350" height="500"
             allowtransparency="true" frameborder="0"></iframe>
@@ -69,5 +148,4 @@ url: /
             <h2 class="section-title">EVENT CALENDAR</h2>
             <iframe src="https://calendar.google.com/calendar/embed?src=6kfb8nisut8k5u07e6d5591kjs%40group.calendar.google.com&ctz=America%2FLos_Angeles"
             style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-    </div>
-</div>
+

@@ -1,254 +1,114 @@
 [
     {
-        "name": "Hailey Tran",
+        "name": "Hanze (David) Tan",
         "title": "President",
-        "image": "hailey_tran.jpg",
-        "quote": "You just triggered my fight-or-flight response. But I'm a flightless bird... 🔫",
-        "bio": "Hi! My name is Hailey, and I’m a junior studying computer science. I’ve loved video games for as long as I can remember, so I joined GDD to get involved with the community and learn how to make games!",
+        "image": "david(hanze)_tan.jpg",
+        "quote": "Waiting for... Silksong...",
+        "bio": "Hello! My name is David and I am a senior studying Computer Science and Stats. I lived in China for 10 years and moved to New Zealand for 7 years before arriving at US, and at one point my English has both Chinese, Kiwi, and American accents. I play badminton and video games in my spare time. I used to play a lot of RPGs but have been recently into soulslike games. Hit me up if you want to chat about anything or want to play badminton together :D",
         "roles": ["officer"]
     },
     {
-        "name": "David Tan",
+        "name": "Vittoria Barone",
         "title": "Vice President",
-        "image": "david.JPG",
-        "quote": "Sitting on the carpet chilling on the laptop~",
-        "bio": "Sup everyone, I’m David (sophomore studying computer science) and I am a programming mentor as well as the Vice President of this club! This is my third semester leading a game dev party and first semester as the VP, and I am always excited to see both the party members learn and a game grow from our wild ideas :)",
+        "image": "Vittoria_Barone.JPG",
+        "quote": "",
+        "bio": "Hello everyone! My name is Vittoria, and I am the Vice President of GDD! I am currently a senior at UC Berkeley, majoring in Film and Media. My primary expertise in the gaming field is narrative writing, but I am always picking up new skills as I go! Some of my favorite games are the Legend of Zelda series, the Evil Within 2, and Minecraft!\n\nLastly, check out my latest game, Free Will, on Steam! Since our launch this summer, we have over 3,000 unique players  and counting! :)",
         "roles": ["officer"]
     },
     {
-        "name": "Vivian Liu",
-        "title": "Senior Advisor",
-        "image": "vivian_liu.JPG",
-        "quote": "o7",
-        "bio" :"Hi! I’m Vivian and I’m a junior studying computer science and data science. I’m particularly interested in computer graphics, and video game design and development just happens to align with my interests! ",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Matthew Kwon",
-        "title": "Industry Outreach",
-        "image": "matthew_kwon.jpg",
-        "quote": "Take it easy.", 
-        "bio": "Hey, I’m Matthew, and I’m studying computer science as a junior. I wanted to explore more about game design as a specialty through GDD, and I was able to become an officer! I’m responsible for managing the club’s contacts with industry experts.",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Shreyas Patel",
-        "title": "Treasurer",
-        "image": "Shreyas_Patel.jpeg",
-        "quote": "What do you call a horse with no legs? Ground beef. What do you call a really tall horse? The steaks have never been higher. What do you call a three-legged horse? A tri-tip steak.", 
-        "bio": "Hi! I’m Shreyas, a junior currently studying Physics and Computer Science. Games have played a role in my life since I was young, eventually making me interested in game design. This led me to joining GDD, to get some real experience with making games!",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Ivy Case",
+        "name": "Navi Emiliano",
         "title": "Event Coordinator",
-        "image": "ivy_case.JPG",
-        "quote": "👻", 
-        "bio": "I am Ivy, an independent game developer studying Computer Science. I’m a part of GDD because I wish to bolster and grow the game-dev community at Berkeley, and help foster an environment of creativity and inclusiveness.",
+        "image": "Navi_Emiliano.jpeg",
+        "quote": "Hey! Listen!", 
+        "bio": "Hii!! I'm Navi a 3rd-year studying EECS. Recently, I've been playing a lot of Stardew :DDD But outside of gaming I like to play volleyball, go to cafes, and explore! :))",
         "roles": ["officer"]
     },
     {
-        "name": "Abrar Karim",
-        "title": "Event Coordinator",
-        "image": "abrar_karim.jpg",
-        "quote": "Quack quack went the duck",
-        "bio":"Hi everyone, I’m Abrar! I’m a junior studying Computer Science and Data Science. I wanted to join GDD to learn how to make video games as they have always been a part of my life ever since I was young, and being part of GDD has enabled me to do that as well as find a community of other passionate people with similar interests!",
+        "name": "Annika Liu",
+        "title": "Historian",
+        "image": "Annika_Liu.jpg",
+        "quote": "I live for fun 🍉",
+        "bio": "Hello! I'm a junior studying CS and this is my first year in GDD as an Officer! I have previously joined GDD DeCal as a Facilitator and now I'm back to the club! I love playing Overwatch and the Resident Evil series (tho I'm too scared to play many of it). Feel free to dm me if you ever wanna play together!",
         "roles": ["officer"]
     },
     {
-        "name": "Alexandria Gooray",
-        "title": "Public Relations",
-        "image": "Alexandria_Gooray.JPG",
-        "quote": "🐥", 
-        "bio": "Hi there! I’m Alex and I’m a third year political science major! I’ve always been passionate about video games but joining GDD allowed me to discover a deeper passion for design and development. I love the community here, especially witnessing the creativity and excitement of other members!",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Daniela Davila",
-        "title": "Public Relations",
-        "image": "Daniela_Davila.jpg",
-        "quote": "Life is not so yahoo~", 
-        "bio": "Hiya, I’m Daniela! I’m a senior studying Cognitive Science and PR officer for GDD. Gaming has always been a big part of my life, which really led to me wanting to make them! GDD really helped me find a community of like minded people who enjoy the world of gaming and game making. Hope to see you all enjoy our community as much as I have! <3",
+        "name": "Kaitlyn McWalters",
+        "title": "Graphic Designer",
+        "image": "kaitlyn_mcwalters.png",
+        "quote": "omg there's a cat!!",
+        "bio": "Hi! I'm Kaitlyn, and I'm a senior studying Data Science and Design Innovation. I am passionate about the intersection between art and technology, and believe that creativity is just as important as technical skill! I joined GDD because I am interested in exploring how art and coding come together to form full-fledged games. I hope that my graphics can help spread the word about GDD and encourage more people to join our community!",
         "roles": ["officer"]
     },
     {
         "name": "Jackie Dai",
-        "title": "Historian",
-        "image": "Jackie_Dai.jpg",
-        "quote": "Roses are orange. Lemons are red. Oranges are yellow. Refrigerator.", 
-        "bio": "Hey! I’m Jackie, a freshman studying computer science. I’m a mentor in the party system as well as a historian for the club. I enjoy playing badminton, so let me know if you ever want to play (: Hopefully we get to make some games together!",
-            "roles": ["officer"]
+        "title": "Lead Facilitator & Mentor",
+        "image": "jackie_dai.jpg",
+        "quote": "'Theory is when you know everything but nothing works. Practice is when everything works but no one knows why. In [my head], theory and practice are combined: Nothing works and no one knows why.'",
+        "bio": "I'm a 3rd year CS major leading the GDD decal this year. In addition to leading the decal, I'm also a mentor in the party system. In the little free time I have, I enjoy badminton, photography, and my electric skateboard. Here's my insta: @apple_oww",
+        "roles": ["mentor", "facilitator"]
+    },
+    {
+        "name": "Joshua",
+        "title": "Lead Facilitator",
+        "image": "joshua_almario.jpg",
+        "quote": "If every porkchop were perfect, we wouldn't have hot dogs.",
+        "bio": "Hello! I'm Josh, a sophomore studying EECS and a lead facilitator for the Game Design and Development Decal! Teaching is a great way for me to share the joys (and frustrations) of game development with other people, and I hope to meet you all through the club and Decal and lament about gacha games!",
+        "roles": ["facilitator"]
+    },
+    {
+        "name": "Shibo Jiang",
+        "title": "Decal Facilitator",
+        "image": "Shibo_Jiang.jpg",
+        "quote": "Boba is mid",
+        "bio": "Hey everyone! I'm Shibo, a senior studying CS. I took the game development decal last semester and had an absolute blast. It was so much fun, in fact, that I decided to come back and be a facilitator this time around! When I'm not diving into code, you can find me on my guitar or playing games like Apex Legends or Dead by Daylight. Overall, I look forward to meeting all the new decal students and I hope I can help make this a memorable experience as it was for me.",
+        "roles": ["facilitator"]
+    },
+    {
+        "name": "Darren Ting",
+        "title": "Lead Mentor",
+        "image": "darren_ting.jpg",
+        "quote": "'...yet my arm continues to safeguard the porcelain cup.'",
+        "bio": "Hi everyone! I'm Darren, I'm a sophomore studying Computer Science. I've always wanted to make games, and I hope to inspire others to share that passion. I hope that by joining the club you'll get to find a new interest (or grow your ability) in one of the many roles of game development! See you soon!",
+        "roles": ["mentor"]
+    },
+    {
+        "name": "Sabrina Kuang",
+        "title": "Decal Facilitator",
+        "image": "sabrina_kuang.jpg",
+        "quote": "\"Don't wish it were easier, wish you were better.\" – Chief, Animal Crossing.",
+        "bio": "Hihi! I'm a 3rd year EECS major who likes to draw. If I'm not on my Stardew farm (Krobus ♥), you can probably catch me screaming on overcooked. PLEASE NO HADES 2 SPOILERS!!! ",
+        "roles": ["facilitator"]
+    },
+    {
+        "name": "Viktor Mooren",
+        "title": "Decal Facilitator",
+        "image": "Viktor_Mooren.jpg",
+        "quote": "\"and the universe said I love you because you are love.\"",
+        "bio": "Hi there! I'm a 3rd year studying Computer Science with a Philosophy minor. Originally from London, UK, I spend most of my days trying to come to grips with American customs such as Costco Hotdogs and \"Wyoming\". I can't wait to be teaching the Decal!",
+        "roles": ["facilitator"]
+    },
+    {
+        "name": "CW Jung",
+        "title": "Treasurer",
+        "image": "CW_Jung.jpg",
+        "quote": "Just play. Have fun. Enjoy the game.",
+        "bio": "Hi everyone! I'm CW a senior majoring in Data Science. I'll be GDD's treasurer for this year and part of the club's party system. Outside of school, I'm either in the gym or rolling around in my room :)",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Jack West",
+        "title": "Industry Outreach",
+        "image": "nil",
+        "quote": "\"The only time to start is now.\"",
+        "bio": "Hey y'all! My name is Jack (He/Him), and I am one of the Industry Outreach Officers for the club. I enjoy writing, playing pool, and reading anything and everything written by Brandon Sanderson. Let's make some awesome games together this semester!",
+        "roles": ["officer"]
     },
     {
         "name": "Connor Chang",
         "title": "Webmaster",
-        "quote": "😜", 
-        "bio": " Hey! I’m Connor, a sophomore studying CS. I like video games. I play all the games from the club!",
+        "image": "connor_chang.jpeg",
+        "quote": "😜",
+        "bio": " Hey! I’m Connor, a junior studying CS. I like video games. I play all the games from the club!",
         "roles": ["officer"]
-    },
-    {
-        "name": "Anne Zhang",
-        "title": "Graphic Designer",
-        "image": "anne_zhang.jpg",
-        "quote": "Wait, this isn’t my final quote, right?",
-        "bio": "Howdy! I’m Anne Zhang, and graphic design is my passion. Seriously. I adore synthesizing interdisciplinary information into clear, engaging visuals. My role in GDD is to visually convey our workshops, events, and Bear Jams. However, as a narrative designer, I’d love connecting with other game devs as well!",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Carolyn Supian",
-        "title": "Graphic Designer",
-        "image": "carolyn_supian.jpg",
-        "quote": "Just keep swimming.",
-        "bio": "Hi! My name is Carolyn and I’m a senior studying Data Science. I enjoy making art and playing games in my spare time, and joined GDD to learn more about the intersection between them!",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Skylar Li",
-        "title": "Graphic Designer",
-        "image": "skylar_li.JPG",
-        "quote": "You drink water, I drink anarchy.",
-        "bio": "Hi!! I’m Skylar, a junior who is super passionate about game art, narrative design, and graphic design. I make fun graphics for GDD events, and also help host Game Art workshops and mentor club members on all aspects of 2D game art :). I love connecting with fellow devs over a shared love for interactive media!",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Jerry Li",
-        "title": "Lead Mentor",
-        "image": "jerry.png",
-        "quote": "Hi mom!",
-        "bio": "Howdy, the name’s Jerry. I’m a junior studying CS, and current lead mentor of GDD. During my time here, I’ve had the chance to explore my passion in game dev, and make friends with some talented, like-minded folks. I hope to provide that exp. to as many people as possible.",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Billy Dao",
-        "title": "Mentor",
-        "image": "billy.jpg",
-        "quote": "Happy everyday",
-        "bio": "Hello there, my name is Billy. I am a Joner intending to graduate with a major in history and a minor in CS. I like every kind of game other than horror games. My favorite game series are Pokemon, my favorite type of game is simulating games, for example, Stardew Valley. My favorite part of the pipeline for the gaming industry is Design. If you are interested in creating a GDD(which stands for Game design document here) for your game I am willing to help out!",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "David Tan",
-        "title": "Mentor",
-        "image": "david.JPG",
-        "quote": "Sitting on the carpet chilling on the laptop~",
-        "bio": "Sup everyone, I’m David (sophomore studying computer science) and I am a programming mentor as well as the Vice President of this club! This is my third semester leading a game dev party and first semester as the VP, and I am always excited to see both the party members learn and a game grow from our wild ideas :)",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Jackie",
-        "title": "Mentor",
-        "image": "Jackie_Dai.jpg",
-        "quote": "Roses are orange, lemons are red, oranges are yellow, refrigerator.",
-        "bio": "Hey, I’m Jackie and currently a freshman studying CS. I’m a mentor for the party system and also take photos for the club as historian. I love teaching and making games, hopefully we get to work together someday. Also I play badminton, so hit me up if you want to play!",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Mateus",
-        "title": "Mentor",
-        "image": "mateus.jpg",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Kaif",
-        "title": "Mentor",
-        "image": "kaif.png",
-        "quote": "Oh-ho-ho! I can tell you’ll have some new stories tonight!",
-        "bio": "Hello y’all! My name is Kaif and I’m currently a freshman studying EECS. I love indie games of all kinds, such as Hollow Knight, Hades, and Omori, and am also a huge Minecraft Modding geek. My strong suits when it comes to game development is music and game design, but I’m also experienced in using Unity for other utilities (i.e simulations), so hmu if you wanna talk about music or Indie Games.",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Skylar Li",
-        "title": "Mentor (Art)",
-        "image": "skylar_li.JPG",
-        "quote": "You drink water, I drink anarchy.",
-        "bio": "Hi!! I’m Skylar, a junior who is super passionate about game art, narrative design, and graphic design. I make fun graphics for GDD events, and also help host Game Art workshops and mentor club members on all aspects of 2D game art :). I love connecting with fellow devs over a shared love for interactive media!",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Vienna",
-        "title": "Mentor (Art)",
-        "image": "Vienna_Laughlin.png",
-        "quote": "“You better hold on tight, Spidermonkey.” ",
-        "bio": "Hello, I’m Vienna! I’m a third year transfer student (from Cuesta College) studying art practice with a minor in art history. I’m interested in visual development such as concept art, illustration, and more. When it comes to gaming, I’m currently enjoying a few different games: such as Stardew Valley, Hollow Knight, and Sundered Eldritch Edition. I look forward to helping out in the club as an art mentor and making some cool games!",
-        "roles": ["mentors"]
-    },
-    {
-        "name": "Henry La",
-        "title": "Lead Facilitator",
-        "image": "Henryla.JPG",
-        "quote": "El Psy Kongroo.",
-        "bio": "Hey everyone! I am a third year CS major. I love playing games with stealth mechanics like Assassin’s Creed, Spider-man, and Ghost of Tsushima. If you have any recommendations on stealth games hmu!",
-        "roles": ["facilitators"]
-    },
-    {
-        "name": "Kenneth Sieu",
-        "title": "Lead Facilitator",
-        "image": "kenneth.jpg",
-        "quote": "Look behind you",
-        "bio": "Hi y’all! I’m Kenneth, a senior studying cs. I joined GDD and somehow made it all the way to lead. I personally think building games is way cooler than ML and FinTech",
-        "roles": ["facilitators"]
-    },
-    {
-        "name": "Jc Sun",
-        "title": "Decal Facilitator",
-        "image": "jcsun.jpeg",
-        "quote": "El Psy Kongroo.",
-        "bio": "Hello! I’m a Sophomore studying CS + Data Science. I’m reeeeeally looking forward to Zelda: Tears of the Kingdom, if it flops imma cry",
-        "roles": ["facilitators"]
-    },
-    {
-        "name": "Ivy Liu",
-        "title": "Decal Facilitator",
-        "image": "IvyLiu.jpg",
-        "quote": "Osmanthus wine ta-",
-        "bio": "Hiya! I’m Ivy, a freshman majoring in Microbial Bio but thinking of switching to DS/CS! You can find my art on Twitter @snowyfern_ (or somewhere under all those WIPs)",
-        "roles": ["facilitators"]
-    },
-    {
-        "name": "Pedro Munoz ",
-        "title": "Decal Facilitator ",
-        "image": "PedroMunoz.jpg",
-        "quote": "Uhhhh",
-        "bio": "Hey, I'm Pedro, a 4th year DataSci UG. Video games are pretty cool :)",
-        "roles": ["facilitators"]
-    },
-    {
-        "name": "Annika Liu ",
-        "title": "Decal Facilitator ",
-        "image": "AnnikaLiu.JPG",
-        "quote": "En Taro Zeratul! ",
-        "bio": "Helllooo! I’m a freshman studying CS and Media Studies. I’m a big fan of Blizzard games, played most of them and my favorites are Overwatch and Heroes of the Storm (tho it’s a dead game T T).",
-        "roles": ["facilitators"]
-    },
-    {
-        "name": "Ruben Holzfuss",
-        "title": "Decal Facilitator",
-        "image": "Ruben.jpeg",
-        "quote": "Ad astra abyssosque",
-        "bio": "Hiho, I am a German management graduate student (similar to MBA). I love all kinds of games from Pokemon over Slay the Spire to Starcraft 2 and Forza. Currently I am working on a game called Axolite.",
-        "roles": ["facilitators"]
-    },
-    {
-        "name": "Anjo Pagdanganan",
-        "title": "Decal Facilitator",
-        "image": "Anjo.jpg",
-        "quote": "“‘yall i need to put a quote for some thing im facilitating what should i put?’<br>‘Just a general quote? Or like a proverb?’<br>‘just a general quote lol’<br>‘Alright I got one for you:’” ",
-        "bio": "Hey! I’m a sophomore in EECS. I love FPS and racing games. My favorite game right now is probably DOOM Eternal. Apart from video games I also like making music, hmu if you want to collab! ",
-        "roles": ["facilitators"]
-    },
-    {
-        "name": "Sharon Zhong",
-        "title": "Decal Facilitator",
-        "image": "sharon.jpg",
-        "quote": "mauricio i can’t move it move it anymore",
-        "bio": "hello hello!  I’m a junior Data Science major. I joined the GDD facilitating team my sophomore year and I’ve just been hanging around since! My favorite game is Cyberpunk2077, but I’m happy to talk about any game!",
-        "roles": ["facilitators"]
-    },
-    {
-        "name": "Judith No",
-        "title": "Decal Facilitator",
-        "quote": "gotta go fast",
-        "bio": "Hi I’m Juju :) I’m a third year in Cognitive Science and Data Science :0 I just joined as a facilitator this semester! I really like rhythm games (pjsk, enstars, deemo, cytus, etc.) and rpg horror games –– super looking forward to Ib’s release on the Switch!",
-        "roles": ["facilitators"]
     }
 ]

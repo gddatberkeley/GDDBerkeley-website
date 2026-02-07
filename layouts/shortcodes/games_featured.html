@@ -1,4 +1,3 @@
-<div class="mdl-grid">
 {{ range .Site.Data.games }}
     {{ range .games }}
         {{ if (in $.Params .name) }}
@@ -6,4 +5,3 @@
         {{ end }}
     {{ end }}
 {{ end }}
-</div>

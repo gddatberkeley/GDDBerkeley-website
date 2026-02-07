@@ -1,0 +1,71 @@
+{{ range $staff_members := .Site.Data.staff }}
+
+{{ $img := (printf "%s/%s" ($.Get "src") (.image)) }}
+{{ $name := (.name) }}
+{{ $title := (.title) }}
+{{ $roles := (.roles) }}
+{{ $bio := (.bio) }}
+{{ $quote := (.quote) }}
+
+{{ if and (not .IsDir) (in $roles ($.Get "role")) }}
+    {{ $role := ($.Get "role") }}
+    {{ if or (eq (.image) "nil") (eq (.image) "") }}
+        <div class="col">
+            <div class="row justify-content-center xs-sp-bot">
+                <div class="img-container text-wrap" style="position: relative; padding: 0;">
+                    <img class="staff-member-img img-fluid px-0" id="{{ $name }}-{{ $role }}-staff-img" src="/images/gddicon.png" alt="..." onmouseenter="showBioQuote(this)" style="object-fit: cover; border-radius: 20px;">
+                    <div class="overflow-auto hide-scrollbar" id="{{ $name }}-{{ $role }}-staff-bq" onmouseleave="hideBioQuote(this)" style="visibility: hidden; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; background-color: rgba(105, 105, 105, 0.7); border-radius: 20px;">
+                        <div class="col-sm">
+                            <div class="row">
+                                <p><b>Bio: </b>{{ $bio }}</p>
+                            </div>
+                            <div class="row">
+                                <p><b>Quote: </b>{{ $quote }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <p class="p-0 m-0"><b>{{ $name }}</b></p>
+            </div>
+            <div class="row">
+                <p class="staff-title">{{ $title }}</p>
+            </div>
+        </div>
+    {{ else }}
+        {{ if and $img (fileExists (printf "assets/%s" $img)) }}
+        {{ with resources.Get ($img) }}
+            {{ with . | resources.Fingerprint "sha512" }}
+            {{ warnf "%s" . }}
+                <div class="col">
+                    <div class="row justify-content-center xs-sp-bot">
+                        <div class="img-container text-wrap" style="position: relative; padding: 0;">
+                            <img class="staff-member-img img-fluid px-0" id="{{ $name }}-{{ $role }}-staff-img" src="{{ .RelPermalink }}" alt="..." onmouseenter="showBioQuote(this)" style="object-fit: cover; border-radius: 20px;">
+                            <div class="overflow-auto hide-scrollbar" id="{{ $name }}-{{ $role }}-staff-bq" onmouseleave="hideBioQuote(this)" style="visibility: hidden; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; background-color: rgba(105, 105, 105, 0.7); border-radius: 20px;">
+                                <div class="col-sm">
+                                    <div class="row">
+                                        <p><b>Bio: </b>{{ $bio }}</p>
+                                    </div>
+                                    <div class="row">
+                                        <p><b>Quote: </b>{{ $quote }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="p-0 m-0"><b>{{ $name }}</b></p>
+                    </div>
+                    <div class="row">
+                        <p class="staff-title">{{ $title }}</p>
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+        {{ else }}
+            {{ warnf "assets/%s not found" ($img) }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
