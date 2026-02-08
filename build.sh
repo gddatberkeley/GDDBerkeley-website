@@ -2,8 +2,9 @@
 
 PATH=$PATH:~/bin
 #github check
-echo "github pull"
-git pull origin main
+echo "github pull but split into fetch and reset for more safety"
+git fetch origin main #look at the git changes
+git reset --hard origin/main #change server files to look like git 
 #google drive check even though not sure if google drive exists/who has access
 if rclone check gdd-gdrive:website-assets assets/gdrive; then
     echo "(¬‿¬) No differences detected."
