@@ -36,8 +36,8 @@
         {{ else }}
             {{/* Try asset pipeline first (existing behavior), then fall back to static images, then default icon */}}
             {{ $assetPath := $img }}
-            {{ $staticRel := printf "/images/staff/Officers/Spring2026OfficerImages/%s" (.image) }}
-            {{ $staticFS := printf "/static/images/staff/Officers/Spring2026OfficerImages/%s" (.image) }}
+            {{ $staticRel := printf "/images/Officers/Spring2026OfficerImages/%s" (.image) }}
+            {{ $staticFS := printf "/static/images/Officers/Spring2026OfficerImages/%s" (.image) }}
 
             {{ if and $assetPath (fileExists (printf "assets/%s" $assetPath)) }}
                 {{ with resources.Get $assetPath }}
