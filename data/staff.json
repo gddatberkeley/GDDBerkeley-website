@@ -1,42 +1,74 @@
 [
     {
-        "name": "Hanze (David) Tan",
-        "title": "President",
-        "image": "david(hanze)_tan.jpg",
-        "quote": "Waiting for... Silksong...",
-        "bio": "Hello! My name is David and I am a senior studying Computer Science and Stats. I lived in China for 10 years and moved to New Zealand for 7 years before arriving at US, and at one point my English has both Chinese, Kiwi, and American accents. I play badminton and video games in my spare time. I used to play a lot of RPGs but have been recently into soulslike games. Hit me up if you want to chat about anything or want to play badminton together :D",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Vittoria Barone",
-        "title": "Vice President",
-        "image": "Vittoria_Barone.JPG",
+        "name": "Cassidy",
+        "title": "Co-President",
+        "image": "Cassidy.png",
         "quote": "",
-        "bio": "Hello everyone! My name is Vittoria, and I am the Vice President of GDD! I am currently a senior at UC Berkeley, majoring in Film and Media. My primary expertise in the gaming field is narrative writing, but I am always picking up new skills as I go! Some of my favorite games are the Legend of Zelda series, the Evil Within 2, and Minecraft!\n\nLastly, check out my latest game, Free Will, on Steam! Since our launch this summer, we have over 3,000 unique players  and counting! :)",
+        "bio": "",
         "roles": ["officer"]
     },
     {
-        "name": "Navi Emiliano",
+        "name": "Darren",
+        "title": "Co-President",
+        "image": "DarrenT.jpg",
+        "quote": "",
+        "bio": "Hi all! I’m Darren (he/they), and I’m a 3rd year studying Computer Science (frown). I’m one of the co-presidents here, and I do all the boring stuff basically. In my free time I’m either daydreaming, wearing my headphones, or napping; and if I’m lucky, I’d be doing all three at once. I like Vocaloid music and Vivid Bad Squad! For games I do design, programming, and music/sound!",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Luisa",
         "title": "Event Coordinator",
-        "image": "Navi_Emiliano.jpeg",
-        "quote": "Hey! Listen!", 
-        "bio": "Hii!! I'm Navi a 3rd-year studying EECS. Recently, I've been playing a lot of Stardew :DDD But outside of gaming I like to play volleyball, go to cafes, and explore! :))",
+        "image": "Luisa.png",
+        "quote": "", 
+        "bio": "Hey! I’m Luisa (she/her) and I’m a junior transfer studying Media Studies here at Cal. I am one of your event coordinators and I look forward to meeting y’all. I have been studying game development & design at my local cc’s for the past couple years and have experience in Unreal & Maya! I love horror games, especially indie ones, & my favorite games are Ju-on the Grunge, Texas Chainsaw Massacre, & Halo Combat Evolved. If you ever want recommendations or want to recommend me anything, don’t be scared to!",
         "roles": ["officer"]
     },
     {
-        "name": "Annika Liu",
-        "title": "Historian",
-        "image": "Annika_Liu.jpg",
-        "quote": "I live for fun 🍉",
-        "bio": "Hello! I'm a junior studying CS and this is my first year in GDD as an Officer! I have previously joined GDD DeCal as a Facilitator and now I'm back to the club! I love playing Overwatch and the Resident Evil series (tho I'm too scared to play many of it). Feel free to dm me if you ever wanna play together!",
+        "name": "Maddox",
+        "title": "Event Coordinator",
+        "image": "Maddox.png",
+        "quote": "", 
+        "bio": "Hello, I’m Maddox (he/him) and I study Environmental Science here at UC Berkeley. I’m also a freshman, but don’t tell anyone that. I’m one of the club’s event coordinators, meaning that I’m responsible for helping schedule and manage all the fun things that the club does. If the question of which games I like the best is ever begged, the undeniable GOATS are Pizza Tower, Plants vs Zombies, and Pizza Tower (again). I mostly just develop games - which is just a fancy way of saying that any programmers or artists willing to help me create a game would be appreciated (wink wink). Outside of games, I’m also a huge fan of risking being eaten by a bear while camping.",
         "roles": ["officer"]
     },
     {
-        "name": "Kaitlyn McWalters",
+        "name": "Alyn",
         "title": "Graphic Designer",
-        "image": "kaitlyn_mcwalters.png",
-        "quote": "omg there's a cat!!",
-        "bio": "Hi! I'm Kaitlyn, and I'm a senior studying Data Science and Design Innovation. I am passionate about the intersection between art and technology, and believe that creativity is just as important as technical skill! I joined GDD because I am interested in exploring how art and coding come together to form full-fledged games. I hope that my graphics can help spread the word about GDD and encourage more people to join our community!",
+        "image": "Alyn.png",
+        "quote": "",
+        "bio": "Helo helo, I’m Alyn (any) and I’m a 4th year studying Mechanical Engineering. I’m the graphic designer and historian for GDD. I like single player open world games like RDR2, Skyrim, etc, some platformers like Blasphemous, Hollow Knight, and I am also a Childe Tartaglia truther. On games I tend to take an artist role but am also trying to get better at the programming aspect. I also dabble in reading manhwas/mangas, listening to music, drawing, and 3D modeling",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Pateel",
+        "title": "Graphic Designer",
+        "image": "Pateel.jpg",
+        "quote": "",
+        "bio": "Hi everyone!!! My name is Pateel (she/her), I’m a 4th year studying Cognitive science and Computer science! It’s my first year on the board doing graphic design for GDD! Some of my favorite games are Omori, Final Fantasy (the whole franchise atp), and PJSK. Recently i’ve been playing Persona 3 Reload and Love and Deepspace! I work on games both as a programmer and artist, as I hope to go into the industry after graduation(jump scare🙁). Non gaming related; I love cats, cooking/baking, music(army, carat, moa, atiniy👁️) and animation+ comics + illustration :3 Can’t wait to meet you all at events this year!! :D",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Laurier",
+        "title": "Industry Outreach",
+        "image": "Laurier.jpg",
+        "quote": "",
+        "bio": "HELLO I’m Laurier (he/him). I’m studying Cognitive Science + Data Science. I’m the Industry outreach here at GDD, so let me know if there’s any speaker you would like to hear from and I’ll try to reach out to them! Some of the games I like are Halo Reach, Stardew, Ultrakill and Signalis. I do mostly programming for games and my art skills are very lacking, so I would love to meet artists passionate about games (feel free to reach out)!",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Johnny",
+        "title": "Webmaster",
+        "image": "Johnny.png",
+        "quote": "",
+        "bio": "Hi I’m Johnny(he/him)and I’m a junior senior in data science. I took the decal last semester as a programmer and it was a lot of fun, highly recommend. Also, I’m the webmaster lol. I play popular games like fortnite and valorant!",
+        "roles": ["officer"]
+    },
+    {
+        "name": "Kiran",
+        "title": "Public Relations",
+        "image": "KiranSinha.png",
+        "quote": "",
+        "bio": "Yo I’m Kiran (he/him) and I’m a freshman studying Mechanical Engineering! I’m the public relations guy for the club, so I’ll be sending out most of the announcements and information and such. The games I have the most hours in are easily Minecraft and Terraria, but that’s not 100% fair because those games you never really “finish.” Some of my other favorites are Deltarune, Celeste, Inscryption, Outer Wilds, and Henry Stickmin (though I could list like 10 others that are all tied for my top 3). I do mostly programming but I’m trying to learn art and sound design. My first engine was GameMaker, so to any GameMaker fans I respect you.",
         "roles": ["officer"]
     },
     {
@@ -86,29 +118,5 @@
         "quote": "\"and the universe said I love you because you are love.\"",
         "bio": "Hi there! I'm a 3rd year studying Computer Science with a Philosophy minor. Originally from London, UK, I spend most of my days trying to come to grips with American customs such as Costco Hotdogs and \"Wyoming\". I can't wait to be teaching the Decal!",
         "roles": ["facilitator"]
-    },
-    {
-        "name": "CW Jung",
-        "title": "Treasurer",
-        "image": "CW_Jung.jpg",
-        "quote": "Just play. Have fun. Enjoy the game.",
-        "bio": "Hi everyone! I'm CW a senior majoring in Data Science. I'll be GDD's treasurer for this year and part of the club's party system. Outside of school, I'm either in the gym or rolling around in my room :)",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Jack West",
-        "title": "Industry Outreach",
-        "image": "nil",
-        "quote": "\"The only time to start is now.\"",
-        "bio": "Hey y'all! My name is Jack (He/Him), and I am one of the Industry Outreach Officers for the club. I enjoy writing, playing pool, and reading anything and everything written by Brandon Sanderson. Let's make some awesome games together this semester!",
-        "roles": ["officer"]
-    },
-    {
-        "name": "Connor Chang",
-        "title": "Webmaster",
-        "image": "connor_chang.jpeg",
-        "quote": "😜",
-        "bio": " Hey! I’m Connor, a junior studying CS. I like video games. I play all the games from the club!",
-        "roles": ["officer"]
     }
 ]
