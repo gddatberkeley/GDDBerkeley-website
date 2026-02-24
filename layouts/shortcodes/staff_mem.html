@@ -37,6 +37,7 @@
             {{/* Try asset pipeline first (existing behavior), then fall back to static images, then default icon */}}
             {{ $assetPath := $img }}
             {{ $staticRel := printf "/images/Officers/Spring2026OfficerImages/%s" (.image) }}
+            {{ $staticFS := printf "/static/images/Officers/Spring2026OfficerImages/%s" (.image) }}
 
             {{ if and $assetPath (fileExists (printf "assets/%s" $assetPath)) }}
                 {{ with resources.Get $assetPath }}
@@ -66,7 +67,7 @@
                         </div>
                     {{ end }}
                 {{ end }}
-            {{ else if fileExists $staticRel }}
+            {{ else if fileExists $staticFS }}
                 <div class="col">
                     <div class="row justify-content-center xs-sp-bot">
                         <div class="img-container text-wrap" style="position: relative; padding: 0;">
